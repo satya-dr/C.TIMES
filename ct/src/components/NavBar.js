@@ -35,7 +35,7 @@ const NavBar = () => {
                         </div>
 
                         <div className="d-flex align-items-center">
-                            <div className="nav-item email-btn"><a href="/Email">Email<i className="fa-solid fa-envelope mx-1"></i></a> </div>
+                            <div className="nav-item email-btn"><a href="mailto:thecgectimesofficial@gmail.com">Email<i className="fa-solid fa-envelope mx-1"></i></a> </div>
                             <a href="https://www.linkedin.com/company/the-cgec-times/"><i className="fa-brands fa-linkedin-in mx-2 linkedIn social-icon"></i></a>
                             <a href="https://www.instagram.com/the_cgec_times/"><i className="fa-brands fa-instagram mx-2 instaGram social-icon"></i></a>
                             <a href="https://www.facebook.com/people/The-CGEC-TIMES/100088137340330/"><i className="fa-brands fa-facebook-f mx-2 faceBook social-icon"></i></a>
