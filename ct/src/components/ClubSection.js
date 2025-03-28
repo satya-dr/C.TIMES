@@ -90,7 +90,7 @@ const ClubsSection = () => {
         {clubs.map((club) => (
           <div key={club.id} className="club-card">
             <h3 className="club-name"><a
-              rel="noreferrer"
+              rel="noopener noreferrer"
               href={club.newsUrl}
               target="_blank"
               style={{textDecoration:'none'}}

@@ -85,7 +85,7 @@
   .events-container {
     width: 100%;
     max-width: 100%;
-    padding: 1rem; /* Reduce padding on mobile */
+    padding: 1rem; 
   }
   
   @media (max-width: 768px) {

@@ -159,9 +159,9 @@ const NewsPage = () => {
                   </p>
                 )}
                 <a
-              rel="noreferrer"
+              rel="noopener noreferrer"
               href={item.newsUrl}
-              target="_blank"
+              target="_blank" 
               className="btn btn-sm btn-dark my-2"
             >
               Read more

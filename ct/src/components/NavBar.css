@@ -1,6 +1,4 @@
-/* NavBar.css - Complete Responsive Solution */
 
-/* ===== Base Styles ===== */
 .main_nav a{
     text-decoration: none;
 }
@@ -23,14 +21,13 @@
     gap: 15px;
   }
   
-  /* ===== Logo & Department Names ===== */
   .navbar-brand {
     display: flex;
     align-items: center;
-    order: 2; /* Mobile order */
+    order: 2; 
     flex-grow: 1;
     justify-content: center;
-    min-width: 0; /* Prevents overflow */
+    min-width: 0; 
   }
   
   .logo-img {
@@ -51,9 +48,8 @@
     margin: 0 10px;
   }
   
-  /* ===== Search Box ===== */
   .search-box {
-    order: 1; /* Mobile order */
+    order: 1; 
     width: 100%;
   }
   
@@ -64,9 +60,8 @@
     border: 1px solid #333;
   }
   
-  /* ===== Social Icons & Email ===== */
   .navbar .social-section {
-    order: 3; /* Mobile order */
+    order: 3; 
     display: flex;
     align-items: center;
     gap: 12px;
@@ -132,7 +127,6 @@
     border-color: rgb(0, 0, 0);
   }
   
-  /* ===== Header Section (Date/Logos/Login) ===== */
   .header-section {
     margin-top: 80px;
     background: white;
@@ -270,7 +264,6 @@
 
 
   
-  /* ===== Publications Section ===== */
   .publications-section {
     width: 100%;
     background: white;
@@ -302,7 +295,6 @@
     transform: translateY(-2px);
   }
   
-  /* ===== Margin Divider ===== */
   .margin {
     width: 100%;
     height: 3px;
@@ -316,7 +308,6 @@
       blue);
   }
   
-  /* ===== Media Queries ===== */
   @media (min-width: 576px) {
     .navbar .container-fluid {
       flex-wrap: nowrap;

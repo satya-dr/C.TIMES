@@ -1,5 +1,5 @@
 import React from "react";
-import "./EventSection.css"; // You'll need to create this CSS file
+import "./EventSection.css"; 
 
 const EventsSection = () => {
   const events = {
@@ -54,7 +54,7 @@ const EventsSection = () => {
           {events.previous.map(event => (
             <div key={event.id} className="event-card">
               <h3 className="event-name"><a
-              rel="noreferrer"
+              rel="noopener noreferrer"
               href={event.newsUrl}
               target="_blank"
               className="btn eventBtn my-2"
@@ -74,7 +74,7 @@ const EventsSection = () => {
             <div key={event.id} className="event-card">
               <h3 className="event-name">
                 <a
-              rel="noreferrer"
+              rel="noopener noreferrer"
               href={event.newsUrl}
               target="_blank"
               className="btn eventBtn   my-2"

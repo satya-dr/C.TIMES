@@ -36,7 +36,7 @@ const TeamPage = () => {
     },
     {
       id: 3,
-      name: "Nakajevi Nag",
+      name: "Satyajit Roy",
       position: "Committee Director",
       role: "University High End per CEO, Prime Coach for the Government Engineering Project",
       photo:no3
@@ -50,14 +50,14 @@ const TeamPage = () => {
     },
     {
         id: 5,
-        name: "Nakajevi Nag",
+        name: "Satyajit Roy",
         position: "Committee Director",
         role: "University High End per CEO, Prime Coach for the Government Engineering Project",
       photo:no5
       },
       {
         id: 6,
-        name: "Nakajevi Nag",
+        name: "Satyajit Roy",
         position: "Committee Director",
         role: "University High End per CEO, Prime Coach for the Government Engineering Project",
       photo:no6
@@ -65,14 +65,14 @@ const TeamPage = () => {
       
       {
         id: 7,
-        name: "Nakajevi Nag",
+        name: "Satyajit Roy",
         position: "Committee Director",
         role: "University High End per CEO, Prime Coach for the Government Engineering Project",
       photo:no7
       },
       {
         id: 8,
-        name: "Nakajevi Nag",
+        name: "Satyajit Roy",
         position: "Committee Director",
         role: "University High End per CEO, Prime Coach for the Government Engineering Project",
       photo:no8
@@ -86,14 +86,14 @@ const TeamPage = () => {
       },
       {
         id: 10,
-        name: "Nakajevi Nag",
+        name: "Satyajit Roy",
         position: "Committee Director",
         role: "University High End per CEO, Prime Coach for the Government Engineering Project",
       photo:no6
       },
       {
         id: 11,
-        name: "Nakajevi Nag",
+        name: "Satyajit Roy",
         position: "Committee Director",
         role: "University High End per CEO, Prime Coach for the Government Engineering Project",
         photo:no3
@@ -170,7 +170,15 @@ const TeamPage = () => {
             <div key={member.id} className="member-card">
               <div className="member-image-container">
                 <img 
-                  src={member.photo} 
+                  src={member.photo||"no photo"} 
+                  // src={(!member.photo || member.photo.trim() === "") ? (
+                  //   <p className="card-content text-muted">No Title</p>
+                  // ) : (
+                  //   <p className="card-content">
+                  //     {member.photo}
+                     
+                  //   </p>
+                  // )} 
                   alt={member.name}
                   className="member-photo"
                   onError={(e) => {
