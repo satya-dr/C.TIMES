@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/C.TIMES/ct/static/css/main.1927f733.css",
-    "main.js": "/C.TIMES/ct/static/js/main.7abb8df5.js",
+    "main.js": "/C.TIMES/ct/static/js/main.3f31a839.js",
     "static/js/453.2cb530a1.chunk.js": "/C.TIMES/ct/static/js/453.2cb530a1.chunk.js",
     "static/media/NO2.jpg": "/C.TIMES/ct/static/media/NO2.90319571e854f551e5ad.jpg",
     "static/media/NO3.jpg": "/C.TIMES/ct/static/media/NO3.58522b2821f7df78dbf0.jpg",
@@ -18,11 +18,11 @@
     "static/media/clgLogo.png": "/C.TIMES/ct/static/media/clgLogo.94a2e46c11315d67611c.png",
     "index.html": "/C.TIMES/ct/index.html",
     "main.1927f733.css.map": "/C.TIMES/ct/static/css/main.1927f733.css.map",
-    "main.7abb8df5.js.map": "/C.TIMES/ct/static/js/main.7abb8df5.js.map",
+    "main.3f31a839.js.map": "/C.TIMES/ct/static/js/main.3f31a839.js.map",
     "453.2cb530a1.chunk.js.map": "/C.TIMES/ct/static/js/453.2cb530a1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1927f733.css",
-    "static/js/main.7abb8df5.js"
+    "static/js/main.3f31a839.js"
   ]
 }
