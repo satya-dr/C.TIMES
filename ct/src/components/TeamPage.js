@@ -5,14 +5,7 @@ import "./TeamPage.css";
 import clgLogo from './photos/ct.jpg';
 
 import logo from './photos/cgectimes.png';
-import no4 from './photos/art1.jpg';
-import no5 from './photos/art2.jpg';
-import no6 from './photos/art3.jpg';
-import no7 from './photos/art4.jpg';
-import no8 from './photos/art5.jpg';
-import no1 from './photos/NO1.jpg';
-import no2 from './photos/NO2.jpg';
-import no3 from './photos/NO3.jpg';
+
 
 const TeamPage = () => {
   const [email, setEmail] = useState('');
@@ -21,90 +14,154 @@ const TeamPage = () => {
   const teamMembers = [
     {
       id: 1,
-      name: "Neha Sarkar",
-      position: "Program CEO",
-      role: "Prime Minister, Government Engineering Project",
-      photo:no1,
+      name: "Arya Ghosh",
+      position: "Incharge",
+      role: "I am Arya Ghosh 2nd year ECE from Cooch Behar Government engineering college",
+     photo: require('./Member_photos/Arya Ghosh.jpg'),
       // photo: require('./photos/neha.jpg')
     },
     {
       id: 2,
-      name: "Shahbajit Nazra",
-      position: "Department Manager",
-      role: "El Time Coach for the Government Engineering Project",
-      photo:no2
+      name: "Dibyendu Koley",
+      position: "Co-incharge",
+      role: "I am Dibyendu Koley 2nd year ECE from Cooch Behar Government engineering college ",
+      photo: require('./Member_photos/HDR.jpg'),
     },
     {
       id: 3,
-      name: "Satyajit Roy",
-      position: "Committee Director",
-      role: "University High End per CEO, Prime Coach for the Government Engineering Project",
-      photo:no3
+      name: "Anwesha Ghosh",
+      position: "Social media handler ",
+      role: "I am Anwesha Ghosh 2nd year ECE from Cooch Behar Government engineering college ",
+    photo: require('./Member_photos/Anwesha Ghosh.jpg'),
     },
     {
       id: 4,
-      name: "Tamanna Mishra",
-      position: "Technical Director",
-      role: "Technical Division of the First Chief Team Coach for the Government Engineering Project",
-      photo:no4
+      name: "Diya Ghosh",
+      position: "Reporter, content writer",
+      role: "I am Diya Ghosh 2nd year EE from Cooch Behar Government engineering college",
+      photo: require('./Member_photos/Diya Ghosh.jpg'),
     },
-    {
-        id: 5,
-        name: "Satyajit Roy",
-        position: "Committee Director",
-        role: "University High End per CEO, Prime Coach for the Government Engineering Project",
-      photo:no5
-      },
       {
-        id: 6,
-        name: "Satyajit Roy",
-        position: "Committee Director",
-        role: "University High End per CEO, Prime Coach for the Government Engineering Project",
-      photo:no6
+        id: 5,
+        name: "Himanshu Adhikary",
+        position: "Photographer",
+        role: "I am Himanshu Adhikary 2nd year EE from Cooch Behar Government engineering college",
+      photo: require('./Member_photos/Himanshu Adhikary.jpg'),
       },
       
       {
+        id: 6,
+        name: "Joydeep Mitra",
+        position: "Reporter",
+        role: "I am Joydeep Mitra 2nd year ME from Cooch Behar Government engineering college",
+      photo: require('./Member_photos/Joydeep Mitra.jpg'),
+      },
+      {
         id: 7,
-        name: "Satyajit Roy",
-        position: "Committee Director",
-        role: "University High End per CEO, Prime Coach for the Government Engineering Project",
-      photo:no7
+        name: "Neha Sarkar",
+        position: "Photographer",
+        role: "I am Neha Sarkar 2nd year ECE from Cooch Behar Government engineering college  ",
+      photo: require('./Member_photos/NEHA SARKAR ECE 31.jpg'),
       },
       {
         id: 8,
-        name: "Satyajit Roy",
-        position: "Committee Director",
-        role: "University High End per CEO, Prime Coach for the Government Engineering Project",
-      photo:no8
+        name: "Shubhojit Hazra",
+        position: "Content Writer",
+        role: "I am Shubhojit Hazra 2nd year EE from Cooch Behar Government engineering college",
+        photo: require('./Member_photos/SHUBHOJIT HAZRA.jpg'),
       },
       {
         id: 9,
-        name: "Tamanna Mishra",
-        position: "Technical Director",
-        role: "Technical Division of the First Chief Team Coach for the Government Engineering Project",
-        photo:no4
+        name: "Nabajyoti Nag",
+        position: "Graphic Designer",
+        role: "I am Nabajyoti Nag 2nd year ECE from Cooch Behar Government engineering college",
+      photo: require('./Member_photos/Nabajyoti Nag.jpg'),
       },
       {
         id: 10,
-        name: "Satyajit Roy",
-        position: "Committee Director",
-        role: "University High End per CEO, Prime Coach for the Government Engineering Project",
-      photo:no6
+        name: "Tamanna Mishra",
+        position: "Tech member",
+        role: "I am Tamanna Mishra 2nd year CSE from Cooch Behar Government engineering college",
+      photo: require('./Member_photos/Tamanna.jpg'),
       },
       {
         id: 11,
         name: "Satyajit Roy",
-        position: "Committee Director",
-        role: "University High End per CEO, Prime Coach for the Government Engineering Project",
-        photo:no3
+        position: "Tech member",
+        role: "I am Satyajit Roy 1st year CSE from Cooch Behar Government engineering college ",
+        photo: require('./Member_photos/me1.jpg'),
       },
       {
         id: 12,
-        name: "Shahbajit Nazra",
-        position: "Department Manager",
-        role: "El Time Coach for the Government Engineering Project",
-        photo:no2
+        name: "Debojit Sarkar",
+        position: "Graphic Designer",
+        role: "I am Debojit Sarkar 1st year CSE from Cooch Behar Government engineering college ",
+        photo: require('./Member_photos/Debojit Sarkar.jpg'),
       },
+      {
+        id: 13,
+        name: "Subham Saha",
+        position: "Tech member",
+        role: "I am Subham Saha 1st year CSE from Cooch Behar Government engineering college",
+        photo: require('./Member_photos/Subham Saha.webp'),
+      },
+      {
+        id: 14,
+        name: "Bhargabi Mukherjee",
+        position: "Content Writer",
+        role: "I am Bhargabi Mukherjee 1st year EE from Cooch Behar Government engineering college ",
+        photo: require('./Member_photos/Bhargabi.jpg'),
+      },
+      {
+        id: 15,
+        name: "Kankana Sikder ",
+        position: "Content Writer",
+        role: "I am Ayush Kankana Sikder 1st year CE from Cooch Behar Government engineering college",
+        photo: require('./Member_photos/Kankana Sikder.jpg'),
+      },
+      {
+        id: 16,
+        name: "Ayan Roy",
+        position: "Graphic Designer",
+        role: "I am Ayan Roy 1st year CSE from Cooch Behar Government engineering college",
+        photo: require('./Member_photos/AYAN ROY.jpg'),
+      },
+      {
+        id: 17,
+        name: "Rishav Prasad",
+        position: "Social Media Handler ",
+        role: "I am Rishav Prasad 1st year CSE from Cooch Behar Government engineering college",
+        photo: require('./Member_photos/Rishav Prasad.jpg'),
+      },
+      {
+        id: 18,
+        name: "Parthiv Bania",
+        position: "Tech member",
+        role: "I am Parthiv Bania 1st year CSE from Cooch Behar Government engineering college",
+        photo: require('./Member_photos/Parthiv.jpg'),
+      },
+      {
+        id: 19,
+        name: "Ayush Kumar Sharma",
+        position: "Repoter",
+        role: "I am Ayush Kumar Sharma 1st year EE from Cooch Behar Government engineering college",
+        photo: require('./Member_photos/Aack Back.jpg'),
+      },
+      {
+        id: 20,
+        name: "Nirupam Konar",
+        position: "Video editor",
+        role: "I am Nirupam Konar 1st year ECE from Cooch Behar Government engineering college",
+        photo: require('./Member_photos/NIRUPAM KONAR.jpg'),
+      },
+      {
+        id: 21,
+        name: "Soumadeep Das",
+        position: "Cartoonist",
+        role: "I am Soumadeep Das 1st year CSE from Cooch Behar Government engineering college  ",
+        photo: require('./Member_photos/Soumadeep Das.jpg'),
+      },
+      
   ];
   const validateEmail = (email) => {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
