@@ -3,7 +3,7 @@
 import React from 'react';
 import './About.css';
 import backgroundImage from './photos/cgec_acdemic.jpeg';
-import clgLogo from './photos/clgLogo.png'; // Import your college logo
+import clgLogo from './photos/clgLogo.png'; 
 
 const BackgroundBox = () => {
   return (
