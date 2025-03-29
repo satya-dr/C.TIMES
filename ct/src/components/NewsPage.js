@@ -20,7 +20,7 @@ const NewsPage = () => {
       date: "BY cgec times FEBRUARY 4,2025",
       category: "Rongmilanti",
       content: "The air at Cooch Behar Government Engineering College (CGEC) buzzed with excitement on November 27th..............",
-      newsUrl:'https://www.facebook.com/people/The-CGEC-TIMES/100088137340330/',
+      newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
       image: inoVative 
     },
     {
@@ -29,7 +29,7 @@ const NewsPage = () => {
       date: "BY cgec times FEBRUARY 4,2025",
       category: "Rongmilanti",
       content: "The exhibition featured a variety of artworks.........",
-      newsUrl:'https://www.facebook.com/people/The-CGEC-TIMES/100088137340330/',
+      newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
       image: Art 
     },
     {
@@ -38,7 +38,7 @@ const NewsPage = () => {
       date: "BY cgec times FEBRUARY 4,2025",
       category: "Capture Crew",
       content: "The Winter Capture Competition organized by Capture Crew.........",
-      newsUrl:'https://www.facebook.com/people/The-CGEC-TIMES/100088137340330/',
+      newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
       image: Cultral 
     },
     {
@@ -47,7 +47,7 @@ const NewsPage = () => {
       date: "BY cgec times FEBRUARY 4,2025",
       category: "TECHNOLOGY",
       content:"",
-      newsUrl:'https://www.facebook.com/people/The-CGEC-TIMES/100088137340330/',
+      newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
       image: Tech 
     },
     {
@@ -56,7 +56,7 @@ const NewsPage = () => {
       date: "BY cgec times FEBRUARY 4,2025",
       category: "ARTS AND CULTURE",
       content:"",
-      newsUrl:'https://www.facebook.com/people/The-CGEC-TIMES/100088137340330/',
+      newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
       image: Rashme 
     },
     {
@@ -65,7 +65,7 @@ const NewsPage = () => {
       date: "BY cgec times FEBRUARY 4,2025",
       category: "PHOTOGRAPHY",
       content: "The air buzzed with excitement on December 14th as Quilaxy CGEC............",
-      newsUrl:'https://www.facebook.com/people/The-CGEC-TIMES/100088137340330/',
+      newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
       image: PhotoGraphy 
     },
     {
@@ -74,7 +74,7 @@ const NewsPage = () => {
         date: "BY cgec times FEBRUARY 4,2025",
         category: "PHOTOGRAPHY",
         content: " friendly inter-college football match was held...........",
-        newsUrl:'https://www.facebook.com/people/The-CGEC-TIMES/100088137340330/',
+        newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
         image: no1
       },
       {
@@ -83,7 +83,7 @@ const NewsPage = () => {
         date: "BY cgec times FEBRUARY 4,2025",
         category: "PHOTOGRAPHY",
         content: "",
-        newsUrl:'https://www.facebook.com/people/The-CGEC-TIMES/100088137340330/',
+        newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
         image: no2 
       },
       {
@@ -92,7 +92,7 @@ const NewsPage = () => {
         date: "BY cgec times FEBRUARY 4,2025",
         category: "PHOTOGRAPHY",
         content: "The Winter Capture Competition organized by Capture Crew...",
-        newsUrl:'https://www.facebook.com/people/The-CGEC-TIMES/100088137340330/',
+        newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
         image: no3 
       },
       {
@@ -101,7 +101,7 @@ const NewsPage = () => {
         date: "BY cgec times FEBRUARY 4,2025",
         category: "PHOTOGRAPHY",
         content: "The Winter Capture Competition organized by Capture Crew...",
-        newsUrl:'https://www.facebook.com/people/The-CGEC-TIMES/100088137340330/',
+        newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
         image: no3 
       },
   ];

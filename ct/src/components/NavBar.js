@@ -84,7 +84,7 @@ const NavBar = () => {
 
             <div className="d-flex align-items-center">
               <div className="nav-item email-btn">
-                <a href="/Email">
+                <a href="mailto:thecgectimesofficial@gmail.com">
                   Email<i className="fas fa-envelope mx-1"></i>
                 </a>
               </div>
@@ -156,10 +156,10 @@ const NavBar = () => {
                 </div>
                 <div className="logSign">
                   <button className="btn logIn btn-primary">
-                    <a href="/">Log In</a>
+                    <a href="https://satya-dr.github.io/CGEC-TIMES/mainWeb/login_page/index.html">Log In</a>
                   </button>
                   <button className="btn signIn btn-primary mx-1">
-                    <a href="/">Sign In</a>
+                    <a href="https://satya-dr.github.io/CGEC-TIMES/mainWeb/login_page/signUp/Singup.html">Sign In</a>
                   </button>
                 </div>
               </div>
