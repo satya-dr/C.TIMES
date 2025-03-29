@@ -7,24 +7,31 @@ import NewsPage from './components/NewsPage';
 import ClubSection from './components/ClubSection'; 
 import EventSection from './components/EventSection'; 
 import TeamPage from './components/TeamPage';
-import Default from './components/Default'; 
+// import Default from './components/Default'; 
+import Home from './components/Home';  
+
 
 function App() {
   return (
     <Router>
       <div className="App">
         <NavBar/>
-        <Routes>
-          <Route path="/" element={<Default />} /> 
+        <Home />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            {/* <Route path="/" element={<Default />} />  */}
           <Route path="/about" element={<About />} />
           <Route path="/news" element={<NewsPage />} />
           <Route path="/clubs" element={<ClubSection />} />
           <Route path="/events" element={<EventSection />} />
           <Route path="/team" element={<TeamPage />} />
-        </Routes>
-      </div>
+          </Routes>
+        </div>
+      
     </Router>
   );
 }
+
+
 
 export default App;
