@@ -106,16 +106,25 @@ const TeamPage = () => {
         photo:no2
       },
   ];
-
+  const validateEmail = (email) => {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(email);
+  };
   const handleSendClick = () => {
-    if (email) {
-      alert(`Email ${email} submitted!\nThanks for being a part of us 🧡`);
-      setEmail('');
-      setIsSubmitted(true);
-      setTimeout(() => setIsSubmitted(false), 3000);
-    } else {
-      alert('Please enter your email address');
+    if (!email) {
+      alert(`Please enter your email address`);
+      return;
     }
+    
+    if (!validateEmail(email)) {
+      alert('Please enter a valid email address');
+      return;
+    }
+  
+    alert(`Email:- ${email} submitted!\nThanks for being a part of us 🧡`);
+    setEmail('');
+    setIsSubmitted(true);
+    setTimeout(() => setIsSubmitted(false), 3000);
   };
 
   const handleKeyPress = (e) => {

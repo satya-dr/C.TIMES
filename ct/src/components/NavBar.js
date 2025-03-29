@@ -6,6 +6,9 @@ import india from "./photos/india.png";
 import logo from "./photos/cgectimes.png";
 import mainLogo from "./photos/ct.jpg";
 
+// import { HashLink as Link } from 'react-router-hash-link';
+// import home from './Home'
+
 const NavBar = () => {
   const [showUserDropdown, setShowUserDropdown] = useState(false);
   const [showMenuDropdown, setshowMenuDropdown] = useState(false);
@@ -45,7 +48,7 @@ const NavBar = () => {
 
               {showMenuDropdown && (
                 <div className="menu-dropdown-menu">
-                  <Link to="/" className="dropdown-item">
+                  <Link to="/home" className="dropdown-item">
                     <i className="fas fa-home me-2"></i>Home
                   </Link>
                   <Link to="/clubs" className="dropdown-item">
@@ -55,8 +58,12 @@ const NavBar = () => {
                     <i className="fas fa-newspaper me-2"></i>News
                   </Link>
                   <Link to="/team" className="dropdown-item">
-                    <i className="fas fa-people-group me-2"></i>Team
-                  </Link>
+  <i className="fas fa-people-group me-2"></i>Team
+</Link>
+
+<Link to="/clubs" className="dropdown-item">
+  <i className="fas fa-people-group me-2"></i>Clubs
+</Link>
                   <Link to="/events" className="dropdown-item">
                     <i className="fas fa-calendar-day me-2"></i>Events
                   </Link>
