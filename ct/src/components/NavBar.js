@@ -257,7 +257,7 @@ const NavBar = () => {
                                 )}
                             </div> */}
                             
-                            <Link to="/" className="publication-item me-3">Fest Gallery</Link>
+                            {/* <Link to="/" className="publication-item me-3">Fest Gallery</Link> */}
                             <Link to="/" className="publication-item me-3">Interviews</Link>
                         </div>
                     </div>
