@@ -52,40 +52,44 @@ const EventsSection = () => {
         <div className="events-column">
           <h2 className="category-title">Previous</h2>
           {events.previous.map(event => (
-            <div key={event.id} className="event-card">
-              <h3 className="event-name"><a
-              rel="noopener noreferrer"
-              href={event.newsUrl}
-              target="_blank"
-              className="btn eventBtn my-2"
-            >
-              {event.name}
-            </a></h3>
-              <p className="event-description">{event.description.slice(0, 150)}
-              {event.description.length > 150 && "..."}
-              </p>
-            </div>
+            <div className="event-card">
+  <h3 className="event-name">
+    <a
+      rel="noopener noreferrer"
+      href={event.newsUrl}
+      target="_blank"
+      className="btn eventBtn my-2"
+    >
+      {event.name}
+    </a>
+  </h3>
+  <p className="event-description">
+    {event.description.slice(0, 150)}
+    {event.description.length > 150 && "..."}
+  </p>
+</div>
           ))}
         </div>
         
         <div className="events-column">
           <h2 className="category-title">Upcoming</h2>
           {events.upcoming.map(event => (
-            <div key={event.id} className="event-card">
-              <h3 className="event-name">
-                <a
-              rel="noopener noreferrer"
-              href={event.newsUrl}
-              target="_blank"
-              className="btn eventBtn   my-2"
-            >
-              {event.name}
-            </a>
-            </h3>
-              <p className="event-description">{event.description.slice(0, 150)}
-              {event.description.length > 150 && "..."}
-              </p>
-            </div>
+            <div className="event-card">
+  <h3 className="event-name">
+    <a
+      rel="noopener noreferrer"
+      href={event.newsUrl}
+      target="_blank"
+      className="btn eventBtn my-2"
+    >
+      {event.name}
+    </a>
+  </h3>
+  <p className="event-description">
+    {event.description.slice(0, 150)}
+    {event.description.length > 150 && "..."}
+  </p>
+</div>
           ))}
         </div>
       </div>
