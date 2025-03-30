@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Madimi+One&family=Patua+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
 .news-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -10,6 +15,7 @@
   }
   
   .section-title {
+    font-family: 'Ubuntu',sans-serif;
     font-weight: 700;
     color: #333;
     border-bottom: 3px solid #05efd3;
@@ -23,9 +29,12 @@
     justify-content: space-between;
     margin-bottom: 30px;
     color: #190909;
-    border-bottom: 3px solid #0066cc;
+    border-bottom: 3px solid #003dcc;
     font-weight: 900;
     font-size: 20px;
+  }
+  .trending-label{
+    font-family: "Madimi One", sans-serif;
   }
   
   .news-grid {

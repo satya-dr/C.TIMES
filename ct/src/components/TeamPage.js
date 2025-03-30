@@ -56,13 +56,7 @@ const TeamPage = () => {
         role: "I am Joydeep Mitra 2nd year ME from Cooch Behar Government engineering college",
       photo: require('./Member_photos/Joydeep Mitra.jpg'),
       },
-      {
-        id: 7,
-        name: "Neha Sarkar",
-        position: "Photographer",
-        role: "I am Neha Sarkar 2nd year ECE from Cooch Behar Government engineering college  ",
-      photo: require('./Member_photos/NEHA SARKAR ECE 31.jpg'),
-      },
+      
       {
         id: 8,
         name: "Shubhojit Hazra",
@@ -116,7 +110,7 @@ const TeamPage = () => {
         id: 15,
         name: "Kankana Sikder ",
         position: "Content Writer",
-        role: "I am Ayush Kankana Sikder 1st year CE from Cooch Behar Government engineering college",
+        role: "I am Kankana Sikder 1st year CE from Cooch Behar Government engineering college",
         photo: require('./Member_photos/Kankana Sikder.jpg'),
       },
       {
@@ -140,13 +134,7 @@ const TeamPage = () => {
         role: "I am Parthiv Bania 1st year CSE from Cooch Behar Government engineering college",
         photo: require('./Member_photos/Parthiv.jpg'),
       },
-      {
-        id: 19,
-        name: "Ayush Kumar Sharma",
-        position: "Repoter",
-        role: "I am Ayush Kumar Sharma 1st year EE from Cooch Behar Government engineering college",
-        photo: require('./Member_photos/Aack Back.jpg'),
-      },
+      
       {
         id: 20,
         name: "Nirupam Konar",
@@ -297,12 +285,14 @@ const TeamPage = () => {
       <div className="footer-container">
         <div className="footer-section">
           <h4 className="footer-title">Support</h4>
+          <div className="links">
           <ul className="footer-links">
             <li><a href="/"><i className="fa-brands mx-1 fa-rocketchat"></i>chat</a></li>
             <li><a href="/"><i className="fa-solid mx-1 fa-phone"></i>contact</a></li>
             <li><a href="/"><i className="fa-solid mx-1 fa-file"></i>Documentation</a></li>
             <li><a href="/"><i className="fa-solid mx-1 fa-question"></i>FAQ</a></li>
           </ul>
+          </div>
         </div>
 
         <div className="clg d-flex">
@@ -317,11 +307,13 @@ const TeamPage = () => {
 
         <div className="footer-section"> 
           <h4 className="footer-title">Legal</h4>
+          <div className="links">
           <ul className="footer-links">
             <li><a href="/"><i className="fa-brands mx-1 fa-servicestack"></i>terms and condition</a></li>
             <li><a href="/">paragraphs</a></li>
             <li><a href="/"><i className="fa-solid mx-1 fa-cookie"></i>Cookies</a></li>
           </ul>
+          </div>
         </div>
         
         <div className="copyright">

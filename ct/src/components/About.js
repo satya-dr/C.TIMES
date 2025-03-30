@@ -33,17 +33,13 @@ const BackgroundBox = () => {
              <h2>About CGEC Times</h2>
              <div className="section-content">
                <p>
-                 Welcome to CGEC Times, the official newspaper club of Cooch Behar Government Engineering College. 
-                 Established in 2022, we provide insights into campus activities and effectiveness.
+               Welcome to CGEC Times, the official newspaper club of Cooch BeharGovernment Engineering College. Established in 2022, we are dedicated to campus. covering all major events,achievements, and activities happening across our
                </p>
                <p>
-                 As one of the largest student-led clubs in CGEC, we take pride in bringing recreational 
-                 content to our readers. Our team publishes comprehensive monthly editions highlighting 
-                 our college's spirit, renovations, and culture.
+               As one of the largest student-led clubs in CGEC, we take pride in bringing well-researched, engaging, and timely news to our readers. Our team works collectively to publish a comprehensive monthly edition that highlights the spirit, innovation, and culture of our college.
                </p>
                <p>
-                 Guided by our mentor Prof. [Name], we make an impact through journalism with passionate 
-                 storytelling. CGEC Times is the voice of our campus. Stay informed, stay inspired!
+               We are privileged to have Assistant Professor Sourav Chakraborty as our mentor, guiding us in our journey to make an impact through journalism. Stay informed. Stay inspired. Stay with CGEC Times!
                </p>
              </div>
            </div>
@@ -53,16 +49,12 @@ const BackgroundBox = () => {
              <h2>About CGEC</h2>
              <div className="section-content">
                <p>
-                 Cooch Behar Government Engineering College (CGEC) is located in a prime location in 
-                 Cooch Behar District, easily accessible from all parts of the city.
+               Cooch Behar Government Engineering College (CGEC) is located in a prime location in Cooch Behar District, easily accessible from all parts of the city.               </p>
+               <p>
+               The college is accredited by AICTE and Maulana Abul Kalam Azad University of Technology, West Bengal, Government of West Bengal.
                </p>
                <p>
-                 Accredited by AICTE and MAKAUT, West Bengal, under the Government of India and 
-                 West Bengal's Department of Higher Education.
-               </p>
-               <p>
-                 Our 120-acre campus features modern departments, laboratories, green spaces, 
-                 extensive computer facilities, and high-tech teaching tools.
+               The Institute has its own wide campus of 20 acres with state-of-the-art laboratories, experienced faculties, and extensive computer facilities coupled with high-tech teaching-learning tools.
                </p>
                <p>
                  We actively participate in local development initiatives and community well-being programs.

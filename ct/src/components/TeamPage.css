@@ -256,6 +256,9 @@ padding: 0 1rem;
 }
 
 .footer-title {
+  display: flex;
+  align-items: center;
+justify-content: center;
 font-size: 1.2rem;
 color: #2c3e50;
 margin-bottom: 1.2rem;
@@ -276,9 +279,16 @@ background: #3498db;
 } */
 
 .footer-links {
+
 list-style: none;
 padding: 0;
 margin: 0;
+}
+
+.links{
+  display: flex;
+  align-items: center;
+justify-content: center;
 }
 
 .footer-links li {

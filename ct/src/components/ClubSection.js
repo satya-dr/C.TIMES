@@ -12,25 +12,25 @@ const ClubsSection = () => {
       id: 2,
       name: "Debate Club",
       newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
-      description: "Engage in thought-provoking discussions and share your argumentation skills. Join us to debate, learn, and lead!"
+      description: "Engage in thought-provoking discussions and sharpen your argumentation skills. Join us to debate, learn, and lead!"
     },
     {
       id: 3,
       name: "Quilaxy CGEC",
       newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
-      description: "Challenge your knowledge and sharpen your mind with exciting patterns. Join us for fun, learning, and competition!"
+      description: "Challenge your knowledge and sharpen your mind with exciting quizzes. Join us for fun, learning, and competition!"
     },
     {
       id: 4,
-      name: "Pop Talks",
+      name: "Pep Talks",
       newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
-      description: "Inspire and be inspired. Join us to build confidence, master public speaking, and share powerful ideas."
+      description: "Inspire and be inspired! Join us to build confidence, master public speaking, and share powerful ideas."
     },
     {
       id: 5,
-      name: "Hiring Nirvana",
+      name: "Nritya Nirvana",
       newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
-      description: "Move to the rhythm and express yourself through dance. Join us to learn, perform, and celebrate the art of movement."
+      description: "Move to the rhythm and express yourself through dance! Join us to learn, perform, and celebrate the art of movement."
     },
     {
       id: 6,
@@ -58,9 +58,9 @@ const ClubsSection = () => {
     },
     {
       id: 10,
-      name: "Pratikriya Theatrical Group",
+      name: "Pratibima Theature Group",
       newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
-      description: "Step into the spotlight and bring stories to life! Join us for acting, storytelling, and plays."
+      description: "Step into the spotlight and bring stories to life! Join us to explore acting, scriptwriting, and stagecraft."
     },
     {
       id: 11,
@@ -72,13 +72,8 @@ const ClubsSection = () => {
       id: 12,
       name: "Melodies of CGEC",
       newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
-      description: "Express yourself through music and rhythm. Join us to sing, play instruments, and create harmonies."
-    },{
-      id: 13,
-      name: "Melodies of CGEC",
-      newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
-      description: "Express yourself through music and rhythm. Join us to sing, play instruments, and create harmonies."
-    }
+      description: "Stay active, build teamwork, and embrace the spirit of sports! Join us for training, competitions, and fitness fun."
+    },
   ];
 
   return (

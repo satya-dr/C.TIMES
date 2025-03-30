@@ -3,39 +3,34 @@ import "./EventSection.css";
 
 const EventsSection = () => {
   const events = {
-    description: "At Cooch Behar Government Engineering College (CGEC), we believe in fostering a vibrant and dynamic campus life. From technical fests to cultural extravaganzas, hackathons to flashmela celebrations, our events bring together students, faculty, and innovators to showcase talent, share knowledge, and create unforgettable experiences.",
+    description: "At Cooch Behar Government Engineering College(CGEC), we belive in fostering a vibrant and dynamic  campus life. From technical fests to cultural extravaganzas, hackathons to Rashmela celebrations, our events bring together students, faculty, and innovators to showcase talent, share knowledge, and create unforgettable expe",
     previous: [
       {
         id: 1,
         name: "CROSSO-2024",
-        newsUrl:'https://www.facebook.com/people/The-CGEC-TIMES/100088137340330/',
-        description: "CROSSO 2024 is the much-awaited Fresher's Party at Cooch Behar Government Engineering College (CGEC), designed to give the newest students a great welcome."
+        newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
+        description: "CROESO 2K24 is the much-awaited Freshers' Party at Cooch Behar Government Engineering  College (CGEC), designed to give the newest batch a grand welcome!"
       },
       {
         id: 2,
         name: "TECHNOVISTA",
-        newsUrl:'https://www.facebook.com/people/The-CGEC-TIMES/100088137340330/',
-        description: "TECHNOVISTA was an exciting 3-day online competition, running from January 29 to January 31, 2025, designed to challenge and inspire tech enthusiasts."
+        newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
+        description: "TECHNOVISTA 2025 is an exciting 3-day online competition, running from  January 29 to January 31, 2025, designed to  challenge and inspire tech enthusiasts."
       }
     ],
     upcoming: [
       {
         id: 3,
         name: "ANNUAL SPORTS 2025",
-        newsUrl:'https://www.facebook.com/people/The-CGEC-TIMES/100088137340330/',
-        description: "Cooch Behar Government Engineering College presents its Annual Sports Event, a thrilling showcase of athletic talent, teamwork, and competitive spirit, aiming for the exciting phases of college sportsmanship and excellence!"
+        newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
+        description: "Cooch Behar Government Engineering College  presents its Annual  Sports Event, a thrilling showcase of athletic talent,  teamwork, and competitive spirit.  Join us for an action-packed celebration of sportsmanship and excellence!"
       },
       {
         id: 4,
         name: "ESPERANZA",
-        newsUrl:'https://www.facebook.com/people/The-CGEC-TIMES/100088137340330/',
-        description: "Join us at Cooch Behar Government Engineering College for a spectacular fashion show, showcasing trendy designs and creative styles on the runway. Don't miss this sight of glamour, talent, and entertainment!"
-      },{
-        id: 5,
-        name: "ESPERANZA",
-        newsUrl:'https://www.facebook.com/people/The-CGEC-TIMES/100088137340330/',
-        description: "Join us at Cooch Behar Government Engineering College for a spectacular fashion show, showcasing trendy designs and creative styles on the runway. Don't miss this sight of glamour, talent, and entertainment!"
-      }
+        newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
+        description: "Join us at Cooch Behar Government Engineering College for a spectacular fashion show, showcasing trendy designs and creative styles on the runway. Don’t miss this night of glamour, talent, and entertainment!"
+      },
     ]
   };
 
