@@ -255,8 +255,8 @@ const TeamPage = () => {
               <h2 className="member-name">{member.name}</h2>
               <p className="member-position">{member.position}</p>
               <p className="member-role">
-                {member.role.slice(0, 50)}
-                {member.role.length > 50 && "..."}
+                {member.role.slice(0, 90)}
+                {member.role.length > 90 && "..."}
               </p>
             </div>
           ))}
