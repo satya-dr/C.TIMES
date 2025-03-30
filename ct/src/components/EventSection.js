@@ -3,11 +3,11 @@ import "./EventSection.css";
 
 const EventsSection = () => {
   const events = {
-    description: "At Cooch Behar Government Engineering College(CGEC), we belive in fostering a vibrant and dynamic  campus life. From technical fests to cultural extravaganzas, hackathons to Rashmela celebrations, our events bring together students, faculty, and innovators to showcase talent, share knowledge, and create unforgettable expe",
+    description: "At Cooch Behar Government Engineering College(CGEC), we belive in fostering a vibrant and dynamic  campus life. From technical fests to cultural extravaganzas, hackathons to Rashmela celebrations, our events bring together students, faculty, and innovators to showcase talent, share knowledge, and create unforgettable experience",
     previous: [
       {
         id: 1,
-        name: "CROSSO-2024",
+        name: "CROESO-2024",
         newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
         description: "CROESO 2K24 is the much-awaited Freshers' Party at Cooch Behar Government Engineering  College (CGEC), designed to give the newest batch a grand welcome!"
       },

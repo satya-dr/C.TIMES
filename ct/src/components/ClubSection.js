@@ -58,7 +58,7 @@ const ClubsSection = () => {
     },
     {
       id: 10,
-      name: "Pratibima Theature Group",
+      name: "Pratibima Theatre Group",
       newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
       description: "Step into the spotlight and bring stories to life! Join us to explore acting, scriptwriting, and stagecraft."
     },

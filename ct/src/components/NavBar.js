@@ -32,7 +32,9 @@ const NavBar = () => {
       <div className="fixed-top bg-white">
         <nav className="navbar navbar-expand-lg navbar-light">
           <div className="head container-fluid">
-            <div className="menu-dropdown-container ms-3">
+            <div className="menu-dropdown-container ms-3" onMouseEnter={() => setshowMenuDropdown(true)}
+            onMouseLeave={() => setshowMenuDropdown(false)}>
+            
               <div
                 className="user-menu d-flex align-items-center"
                 onClick={() => setshowMenuDropdown(!showMenuDropdown)}
@@ -99,6 +101,7 @@ const NavBar = () => {
               </a>
 
               <div className="user-dropdown-container ms-3">
+                
                 <div
                   className="user-menu d-flex align-items-center"
                   onClick={() => setShowUserDropdown(!showUserDropdown)}
