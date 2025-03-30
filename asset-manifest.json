@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/C.TIMES/static/css/main.caf36b56.css",
-    "main.js": "/C.TIMES/static/js/main.e7b61f2f.js",
+    "main.css": "/C.TIMES/static/css/main.6107a0f0.css",
+    "main.js": "/C.TIMES/static/js/main.513b1b1b.js",
     "static/js/453.2cb530a1.chunk.js": "/C.TIMES/static/js/453.2cb530a1.chunk.js",
     "static/media/AYAN ROY.jpg": "/C.TIMES/static/media/AYAN ROY.bcad8e00fe8b46d266c2.jpg",
     "static/media/HDR.jpg": "/C.TIMES/static/media/HDR.4fdc50b8edf658abfba0.jpg",
-    "static/media/Aack Back.jpg": "/C.TIMES/static/media/Aack Back.ba6072c6b6200b9a5c80.jpg",
     "static/media/Rishav Prasad.jpg": "/C.TIMES/static/media/Rishav Prasad.3f6afd27b477dec923ef.jpg",
     "static/media/NO2.jpg": "/C.TIMES/static/media/NO2.90319571e854f551e5ad.jpg",
     "static/media/NO3.jpg": "/C.TIMES/static/media/NO3.58522b2821f7df78dbf0.jpg",
@@ -20,7 +19,6 @@
     "static/media/NO1.jpg": "/C.TIMES/static/media/NO1.c26c8d7888316a5b570c.jpg",
     "static/media/art1.jpg": "/C.TIMES/static/media/art1.e967c0e1422def0fa25e.jpg",
     "static/media/india.png": "/C.TIMES/static/media/india.f90d9222ad816550906f.png",
-    "static/media/NEHA SARKAR ECE 31.jpg": "/C.TIMES/static/media/NEHA SARKAR ECE 31.6e36fe3e61273c8c8241.jpg",
     "static/media/Arya Ghosh.jpg": "/C.TIMES/static/media/Arya Ghosh.b54b7754fd6d16dcac86.jpg",
     "static/media/art5.jpg": "/C.TIMES/static/media/art5.7040a3a840200361576c.jpg",
     "static/media/cgec_acdemic.jpeg": "/C.TIMES/static/media/cgec_acdemic.d85266d725e1a5ac11db.jpeg",
@@ -38,12 +36,12 @@
     "static/media/cgectimes.png": "/C.TIMES/static/media/cgectimes.df502f2e843281b9b745.png",
     "static/media/clgLogo.png": "/C.TIMES/static/media/clgLogo.94a2e46c11315d67611c.png",
     "index.html": "/C.TIMES/index.html",
-    "main.caf36b56.css.map": "/C.TIMES/static/css/main.caf36b56.css.map",
-    "main.e7b61f2f.js.map": "/C.TIMES/static/js/main.e7b61f2f.js.map",
+    "main.6107a0f0.css.map": "/C.TIMES/static/css/main.6107a0f0.css.map",
+    "main.513b1b1b.js.map": "/C.TIMES/static/js/main.513b1b1b.js.map",
     "453.2cb530a1.chunk.js.map": "/C.TIMES/static/js/453.2cb530a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.caf36b56.css",
-    "static/js/main.e7b61f2f.js"
+    "static/css/main.6107a0f0.css",
+    "static/js/main.513b1b1b.js"
   ]
 }
