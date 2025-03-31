@@ -189,7 +189,7 @@ const NavBar = () => {
 
 
               <div
-                className="position-relative d-inline-block me-3"
+                className="position-relative d-inline-block me-3 my-1"
                 onMouseEnter={() => setshowPublicationsDropdown(true)}
                 onMouseLeave={() => setshowPublicationsDropdown(false)}
               >
@@ -230,7 +230,7 @@ const NavBar = () => {
 
 
               <div
-                className="position-relative d-inline-block me-3"
+                className="position-relative d-inline-block me-3 my-1"
                 onMouseEnter={() => setshowSportsDropdown(true)}
                 onMouseLeave={() => setshowSportsDropdown(false)}
               >
@@ -268,7 +268,7 @@ const NavBar = () => {
 
 
               <div
-                className="position-relative d-inline-block me-3"
+                className="position-relative d-inline-block me-3 my-1"
                 onMouseEnter={() => setshowClubDropdown(true)}
                 onMouseLeave={() => setshowClubDropdown(false)}
               >
@@ -304,7 +304,7 @@ const NavBar = () => {
 
               
               <div
-                className="position-relative d-inline-block me-3"
+                className="position-relative d-inline-block me-3 my-1"
                 onMouseEnter={() => setshowAcaDeptDropdown(true)}
                 onMouseLeave={() => setshowAcaDeptDropdown(false)}
               >
@@ -347,7 +347,7 @@ const NavBar = () => {
 
 
               <div
-                className="position-relative d-inline-block me-3"
+                className="position-relative d-inline-block me-3 my-1"
                 onMouseEnter={() => setshowAcaEventDropdown(true)}
                 onMouseLeave={() => setshowAcaEventDropdown(false)}
               >
@@ -383,7 +383,7 @@ const NavBar = () => {
 
 
               <div
-                className="position-relative d-inline-block me-3"
+                className="position-relative d-inline-block me-3 my-1"
                 onMouseEnter={() => setshowInterviewsDropdown(true)}
                 onMouseLeave={() => setshowInterviewsDropdown(false)}
               >
@@ -414,7 +414,7 @@ const NavBar = () => {
 
 
               <div
-                className="position-relative d-inline-block me-3"
+                className="position-relative d-inline-block me-3 my-1"
                 onMouseEnter={() => setshowFestGalDropdown(true)}
                 onMouseLeave={() => setshowFestGalDropdown(false)}
               >
@@ -432,9 +432,9 @@ const NavBar = () => {
 
                 {showFestGalDropdown && (
                   <div className="publications-dropdown-menu">
-                    {/* <Link to="/newsletter" className="dropdown-item">
+                    <Link to="/newsletter" className="dropdown-item">
                     <i class="fas fa-wifi icon me-2"></i>Online
-                    </Link> */}
+                    </Link>
                     
                    
                   </div>
