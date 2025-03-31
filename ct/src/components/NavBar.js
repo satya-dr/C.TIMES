@@ -12,10 +12,15 @@ import mainLogo from "./photos/ct.jpg";
 const NavBar = () => {
   const [showUserDropdown, setShowUserDropdown] = useState(false);
   const [showMenuDropdown, setshowMenuDropdown] = useState(false);
-  const [showPublicationsDropdown, setShowPublicationsDropdown] =
+  const [showPublicationsDropdown, setshowPublicationsDropdown] =
     useState(false);
   const [showSportsDropdown, setshowSportsDropdown] = useState(false);
-
+  const [showClubDropdown, setshowClubDropdown] = useState(false);
+  const [showAcaDeptDropdown, setshowAcaDeptDropdown] = useState(false);
+  const [showAcaEventDropdown, setshowAcaEventDropdown] = useState(false);
+  const [showInterviewsDropdown, setshowInterviewsDropdown] = useState(false);
+  const [showFestGalDropdown, setshowFestGalDropdown] = useState(false);
+  
   const getCurrentDate = () => {
     const options = {
       weekday: "long",
@@ -32,9 +37,11 @@ const NavBar = () => {
       <div className="fixed-top bg-white">
         <nav className="navbar navbar-expand-lg navbar-light">
           <div className="head container-fluid">
-            <div className="menu-dropdown-container ms-3"onMouseEnter={() => setshowMenuDropdown(true)}
-            onMouseLeave={() => setshowMenuDropdown(false)} >
-            
+            <div
+              className="menu-dropdown-container ms-3"
+              onMouseEnter={() => setshowMenuDropdown(true)}
+              onMouseLeave={() => setshowMenuDropdown(false)}
+            >
               <div
                 className="user-menu d-flex align-items-center"
                 onClick={() => setshowMenuDropdown(!showMenuDropdown)}
@@ -60,12 +67,12 @@ const NavBar = () => {
                     <i className="fas fa-newspaper me-2"></i>News
                   </Link>
                   <Link to="/team" className="dropdown-item">
-  <i className="fas fa-people-group me-2"></i>Team
-</Link>
+                    <i className="fas fa-people-group me-2"></i>Team
+                  </Link>
 
-<Link to="/clubs" className="dropdown-item">
-  <i className="fas fa-people-group me-2"></i>Clubs
-</Link>
+                  <Link to="/clubs" className="dropdown-item">
+                    <i className="fas fa-people-group me-2"></i>Clubs
+                  </Link>
                   <Link to="/events" className="dropdown-item">
                     <i className="fas fa-calendar-day me-2"></i>Events
                   </Link>
@@ -101,7 +108,6 @@ const NavBar = () => {
               </a>
 
               <div className="user-dropdown-container ms-3">
-                
                 <div
                   className="user-menu d-flex align-items-center"
                   onClick={() => setShowUserDropdown(!showUserDropdown)}
@@ -159,10 +165,14 @@ const NavBar = () => {
                 </div>
                 <div className="logSign">
                   <button className="btn logIn btn-primary">
-                    <a href="https://satya-dr.github.io/CGEC-TIMES/mainWeb/login_page/index.html">Log In</a>
+                    <a href="https://satya-dr.github.io/CGEC-TIMES/mainWeb/login_page/index.html">
+                      Log In
+                    </a>
                   </button>
                   <button className="btn signIn btn-primary mx-1">
-                    <a href="https://satya-dr.github.io/CGEC-TIMES/mainWeb/login_page/signUp/Singup.html">Sign In</a>
+                    <a href="https://satya-dr.github.io/CGEC-TIMES/mainWeb/login_page/signUp/Singup.html">
+                      Sign In
+                    </a>
                   </button>
                 </div>
               </div>
@@ -176,15 +186,17 @@ const NavBar = () => {
           <div className="col-md-12">
             <div className="d-flex flex-wrap justify-content-center align-items-center">
 
+
+
               <div
                 className="position-relative d-inline-block me-3"
-                onMouseEnter={() => setShowPublicationsDropdown(true)}
-                onMouseLeave={() => setShowPublicationsDropdown(false)}
+                onMouseEnter={() => setshowPublicationsDropdown(true)}
+                onMouseLeave={() => setshowPublicationsDropdown(false)}
               >
                 <button
-                  className="publication-item dropdown-toggle"
+                  className="publication-item"
                   onClick={() =>
-                    setShowPublicationsDropdown(!showPublicationsDropdown)
+                    setshowPublicationsDropdown(!showPublicationsDropdown)
                   }
                 >
                   Publications{" "}
@@ -214,13 +226,16 @@ const NavBar = () => {
                 )}
               </div>
 
+
+
+
               <div
                 className="position-relative d-inline-block me-3"
                 onMouseEnter={() => setshowSportsDropdown(true)}
                 onMouseLeave={() => setshowSportsDropdown(false)}
               >
                 <button
-                  className="publication-item dropdown-toggle"
+                  className="publication-item"
                   onClick={() => setshowSportsDropdown(!showSportsDropdown)}
                 >
                   Sports{" "}
@@ -249,19 +264,185 @@ const NavBar = () => {
                 )}
               </div>
 
-              <Link to="/" className="publication-item me-3">
-                Clubs
-              </Link>
-              <Link to="/" className="publication-item me-3">
-                Commities
-              </Link>
-              <Link to="/" className="publication-item me-3">
-                Academic Dept.
-              </Link>
-              <Link to="/" className="publication-item me-3">
-                Academic Events
-              </Link>
-              <Link to="/" className="publication-item me-3">Interviews</Link>
+
+
+
+              <div
+                className="position-relative d-inline-block me-3"
+                onMouseEnter={() => setshowClubDropdown(true)}
+                onMouseLeave={() => setshowClubDropdown(false)}
+              >
+                <button
+                  className="publication-item"
+                  onClick={() => setshowClubDropdown(!showClubDropdown)}
+                >
+                  Commities{" "}
+                  <i
+                    className={`fas fa-caret-down ms-1 ${
+                      showClubDropdown ? "fa-rotate-180" : ""
+                    }`}
+                  ></i>
+                </button>
+
+                {showClubDropdown && (
+                  <div className="publications-dropdown-menu">
+                    <Link to="/magazine" className="dropdown-item">
+                      <i class="fas fa-hands-helping me-2"></i>Anti Raging
+                    </Link>
+                    <Link to="/magazine" className="dropdown-item">
+                    <i class="fas fa-exclamation-triangle icon me-2"></i> Internal Grievance Committe
+                    </Link>
+                    <Link to="/magazine" className="dropdown-item">
+                      <i class="fas fa-tasks icon me-2"></i>Internal Quality Assurance Committee
+                    </Link>
+                  
+                  </div>
+                )}
+              </div>
+              
+
+
+              
+              <div
+                className="position-relative d-inline-block me-3"
+                onMouseEnter={() => setshowAcaDeptDropdown(true)}
+                onMouseLeave={() => setshowAcaDeptDropdown(false)}
+              >
+                <button
+                  className="publication-item"
+                  onClick={() => setshowAcaDeptDropdown(!showAcaDeptDropdown)}
+                >
+                  Academic Dept.{" "}
+                  <i
+                    className={`fas fa-caret-down ms-1 ${
+                      showAcaDeptDropdown ? "fa-rotate-180" : ""
+                    }`}
+                  ></i>
+                </button>
+
+                {showAcaDeptDropdown && (
+                  <div className="publications-dropdown-menu">
+                    <Link to="/magazine" className="dropdown-item">
+                    <i class="fas fa-atom me-2"></i>Basic Science and Humanities 
+                    </Link>
+                    <Link to="/newsletter" className="dropdown-item">
+                    <i class="fas fa-desktop me-2"></i>Computer Science Engineering
+                    </Link>
+                    <Link to="/annual-report" className="dropdown-item">
+                    <i class="fas fa-microchip me-2"></i>Electronic And Communication Engineering
+                    </Link>
+                    <Link to="/research-papers" className="dropdown-item">
+                    <i class="fas fa-bolt me-2"></i> Electrical Engineering
+                    </Link>
+                    <Link to="/research-papers" className="dropdown-item">
+                    <i class="fas fa-cogs me-2"></i>Mechanical Engineering
+                    </Link>
+                    <Link to="/research-papers" className="dropdown-item">
+                    <i class="fas fa-ruler-combined me-2"></i>Civil Engineering
+                    </Link>
+                  </div>
+                )}
+              </div>
+
+
+
+              <div
+                className="position-relative d-inline-block me-3"
+                onMouseEnter={() => setshowAcaEventDropdown(true)}
+                onMouseLeave={() => setshowAcaEventDropdown(false)}
+              >
+                <button
+                  className="publication-item"
+                  onClick={() => setshowAcaEventDropdown(!showAcaEventDropdown)}
+                >
+                  Academic Events{" "}
+                  <i
+                    className={`fas fa-caret-down ms-1 ${
+                      showAcaEventDropdown ? "fa-rotate-180" : ""
+                    }`}
+                  ></i>
+                </button>
+
+                {showAcaEventDropdown && (
+                  <div className="publications-dropdown-menu">
+                    <Link to="/magazine" className="dropdown-item">
+                    <i class="fas fa-infinity me-2"></i> Tech Fest
+                    </Link>
+                    <Link to="/newsletter" className="dropdown-item">
+                      <i className="fas fa-question-circle me-2"></i>Tech Quiz
+                    </Link>
+                    <Link to="/annual-report" className="dropdown-item">
+                      <i className="fas fa-code me-2"></i>Code-A-Thon
+                    </Link>
+                    <Link to="/research-papers" className="dropdown-item">
+                      <i className="fas fa-sitemap me-2"></i>Dev-Draw2.0
+                    </Link>
+                  </div>
+                )}
+              </div>
+
+
+              <div
+                className="position-relative d-inline-block me-3"
+                onMouseEnter={() => setshowInterviewsDropdown(true)}
+                onMouseLeave={() => setshowInterviewsDropdown(false)}
+              >
+                <button
+                  className="publication-item"
+                  onClick={() => setshowInterviewsDropdown(!showInterviewsDropdown)}
+                >
+                  Interviews{" "}
+                  <i
+                    className={`fas fa-caret-down ms-1 ${
+                      showInterviewsDropdown ? "fa-rotate-180" : ""
+                    }`}
+                  ></i>
+                </button>
+
+                {showInterviewsDropdown && (
+                  <div className="publications-dropdown-menu">
+                    <Link to="/newsletter" className="dropdown-item">
+                    <i class="fas fa-wifi icon me-2"></i>Online
+                    </Link>
+                    <Link to="/magazine" className="dropdown-item">
+                    <i class="fas fa-globe me-2"></i>Offline
+                    </Link>
+                   
+                  </div>
+                )}
+              </div>
+
+
+              <div
+                className="position-relative d-inline-block me-3"
+                onMouseEnter={() => setshowFestGalDropdown(true)}
+                onMouseLeave={() => setshowFestGalDropdown(false)}
+              >
+                <button
+                  className="publication-item"
+                  onClick={() => setshowFestGalDropdown(!showFestGalDropdown)}
+                >
+                  Fest Gallery{" "}
+                  <i
+                    className={`fas fa-caret-down ms-1 ${
+                      showFestGalDropdown ? "fa-rotate-180" : ""
+                    }`}
+                  ></i>
+                </button>
+
+                {showFestGalDropdown && (
+                  <div className="publications-dropdown-menu">
+                    {/* <Link to="/newsletter" className="dropdown-item">
+                    <i class="fas fa-wifi icon me-2"></i>Online
+                    </Link> */}
+                    
+                   
+                  </div>
+                )}
+              </div>
+
+
+              
             </div>
           </div>
         </div>
