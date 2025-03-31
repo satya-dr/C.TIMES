@@ -1,7 +1,6 @@
 
 import { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import FullWeb from './components/FullWeb';
+import { BrowserRouter as Router, useLocation } from 'react-router-dom';
 import LoadingBar from 'react-top-loading-bar';
 import NavBar from './components/NavBar';
 import About from './components/About';
@@ -9,7 +8,7 @@ import NewsPage from './components/NewsPage';
 import ClubSection from './components/ClubSection'; 
 import EventSection from './components/EventSection'; 
 import TeamPage from './components/TeamPage';
-import Home from './components/Home'; 
+ 
 
 
 function AppWrapper() {
@@ -43,20 +42,16 @@ function AppWrapper() {
         containerStyle={{ zIndex: 9999 }}
       />
       <NavBar />
-      <FullWeb/>
+      <About />
+      <NewsPage />
+      <ClubSection />
+      <EventSection />
+      <TeamPage />
       <div style={{ 
          
         transition: 'opacity 0.3s ease' 
       }}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/news" element={<NewsPage />} />
-          <Route path="/clubs" element={<ClubSection />} />
-          <Route path="/events" element={<EventSection />} />
-          <Route path="/team" element={<TeamPage />} />
-        </Routes>
+       
       </div>
     </>
   );

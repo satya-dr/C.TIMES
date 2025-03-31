@@ -10,8 +10,7 @@ import mainLogo from "./photos/ct.jpg";
 // import home from './Home'
 
 const NavBar = () => {
-  const [showUserDropdown, setShowUserDropdown] = useState(false);
-  const [showMenuDropdown, setshowMenuDropdown] = useState(false);
+  const [showUserDropdown, setshowUserDropdown] = useState(false);
   const [showPublicationsDropdown, setshowPublicationsDropdown] =
     useState(false);
   const [showSportsDropdown, setshowSportsDropdown] = useState(false);
@@ -37,48 +36,40 @@ const NavBar = () => {
       <div className="fixed-top bg-white">
         <nav className="navbar navbar-expand-lg navbar-light">
           <div className="head container-fluid">
-            <div
-              className="menu-dropdown-container ms-3"
-              onMouseEnter={() => setshowMenuDropdown(true)}
-              onMouseLeave={() => setshowMenuDropdown(false)}
-            >
-              <div
-                className="user-menu d-flex align-items-center"
-                onClick={() => setshowMenuDropdown(!showMenuDropdown)}
-                style={{ cursor: "pointer" }}
-              >
-                <i className="fas fa-th-list menu-icon"></i>
-                <i
-                  className={`fas fa-caret-down ms-2 ${
-                    showMenuDropdown ? "fa-rotate-180" : ""
-                  }`}
-                ></i>
+
+          <div className="user-dropdown-container ms-3"
+          onMouseEnter={() => setshowUserDropdown(true)}
+          onMouseLeave={() => setshowUserDropdown(false)}>
+                <div
+                  className="user-menu d-flex align-items-center"
+                  onClick={() => setshowUserDropdown(!showUserDropdown)}
+                  style={{ cursor: "pointer" }}
+                >
+                  <i className="fas fa-user-circle user-menu-icon"></i>
+                  <i
+                    className={`fas fa-caret-down ms-2 ${
+                      showUserDropdown ? "fa-rotate-180" : ""
+                    }`}
+                  ></i>
+                </div>
+
+                {showUserDropdown && (
+                  <div className="user-dropdown-menu">
+                    <Link to="/profile" className="dropdown-item">
+                      <i className="fas fa-user me-2"></i>Profile
+                    </Link>
+                    <Link to="/settings" className="dropdown-item">
+                      <i className="fas fa-cog me-2"></i>Settings
+                    </Link>
+                    <Link to="/logout" className="dropdown-item">
+                      <i className="fas fa-sign-out-alt me-2"></i>Logout
+                    </Link>
+                  </div>
+                )}
               </div>
 
-              {showMenuDropdown && (
-                <div className="menu-dropdown-menu">
-                  <Link to="/home" className="dropdown-item">
-                    <i className="fas fa-home me-2"></i>Home
-                  </Link>
-                  <Link to="/clubs" className="dropdown-item">
-                    <i className="fas fa-people-group me-2"></i>Clubs
-                  </Link>
-                  <Link to="/news" className="dropdown-item">
-                    <i className="fas fa-newspaper me-2"></i>News
-                  </Link>
-                  <Link to="/team" className="dropdown-item">
-                    <i className="fas fa-people-group me-2"></i>Team
-                  </Link>
 
-                  <Link to="/clubs" className="dropdown-item">
-                    <i className="fas fa-people-group me-2"></i>Clubs
-                  </Link>
-                  <Link to="/events" className="dropdown-item">
-                    <i className="fas fa-calendar-day me-2"></i>Events
-                  </Link>
-                </div>
-              )}
-            </div>
+
             {/* <div className="search-box">
                             <input className="form-control" type="text" placeholder="Search" />
                         </div> */}
@@ -107,34 +98,7 @@ const NavBar = () => {
                 <i className="fab fa-facebook-f mx-2 faceBook social-icon"></i>
               </a>
 
-              <div className="user-dropdown-container ms-3">
-                <div
-                  className="user-menu d-flex align-items-center"
-                  onClick={() => setShowUserDropdown(!showUserDropdown)}
-                  style={{ cursor: "pointer" }}
-                >
-                  <i className="fas fa-user-circle user-menu-icon"></i>
-                  <i
-                    className={`fas fa-caret-down ms-2 ${
-                      showUserDropdown ? "fa-rotate-180" : ""
-                    }`}
-                  ></i>
-                </div>
-
-                {showUserDropdown && (
-                  <div className="user-dropdown-menu">
-                    <Link to="/profile" className="dropdown-item">
-                      <i className="fas fa-user me-2"></i>Profile
-                    </Link>
-                    <Link to="/settings" className="dropdown-item">
-                      <i className="fas fa-cog me-2"></i>Settings
-                    </Link>
-                    <Link to="/logout" className="dropdown-item">
-                      <i className="fas fa-sign-out-alt me-2"></i>Logout
-                    </Link>
-                  </div>
-                )}
-              </div>
+              
             </div>
           </div>
         </nav>
