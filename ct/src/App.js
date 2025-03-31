@@ -16,8 +16,8 @@ function AppWrapper() {
   const location = useLocation();
 
   useEffect(() => {
-    // রাউট চেঞ্জ হলে প্রগ্রেস বার শুরু করুন
-    setProgress(30);
+   
+    setProgress(10);
     
     const timer1 = setTimeout(() => setProgress(60), 300);
     const timer2 = setTimeout(() => setProgress(80), 600);
@@ -34,10 +34,10 @@ function AppWrapper() {
   return (
     <>
       <LoadingBar
-        color='#f11946'
+        color='#0078a8'
         progress={progress}
         onLoaderFinished={() => setProgress(0)}
-        height={4}
+        height={3}
         shadow={true}
         containerStyle={{ zIndex: 9999 }}
       />
