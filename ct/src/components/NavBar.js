@@ -249,7 +249,7 @@ const NavBar = () => {
                 {showSportsDropdown && (
                   <div className="publications-dropdown-menu">
                     <Link to="/magazine" className="dropdown-item">
-                      <i className="fas fa-cricket me-2"></i>Cricket
+                    <i class="fas fa-baseball-bat-ball icon me-2"></i>Cricket
                     </Link>
                     <Link to="/newsletter" className="dropdown-item">
                       <i className="fas fa-futbol me-2"></i>Football
