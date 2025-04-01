@@ -123,7 +123,7 @@ const NewsPage = () => {
       </div>
       
       <div className="news-trending "style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
-        <span className="trending-label"><i class="fas fa-star" style={{color:'#17003a'}}></i> TRENDING <i class="fas fa-star"style={{color:'#17003a'}}></i></span>
+        <span className="trending-label"><i className="fas fa-star" style={{color:'#17003a'}}></i> TRENDING <i className="fas fa-star"style={{color:'#17003a'}}></i></span>
       </div>
       
       <div className="row"> 

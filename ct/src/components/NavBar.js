@@ -213,7 +213,7 @@ const NavBar = () => {
                 {showSportsDropdown && (
                   <div className="publications-dropdown-menu">
                     <Link to="/magazine" className="dropdown-item">
-                    <i class="fas fa-baseball-bat-ball icon me-2"></i>Cricket
+                    <i className="fas fa-baseball-bat-ball icon me-2"></i>Cricket
                     </Link>
                     <Link to="/newsletter" className="dropdown-item">
                       <i className="fas fa-futbol me-2"></i>Football
@@ -251,13 +251,13 @@ const NavBar = () => {
                 {showClubDropdown && (
                   <div className="publications-dropdown-menu">
                     <Link to="/magazine" className="dropdown-item">
-                      <i class="fas fa-hands-helping me-2"></i>Anti Raging
+                      <i className="fas fa-hands-helping me-2"></i>Anti Raging
                     </Link>
                     <Link to="/magazine" className="dropdown-item">
-                    <i class="fas fa-exclamation-triangle icon me-2"></i> Internal Grievance Committe
+                    <i className="fas fa-exclamation-triangle icon me-2"></i> Internal Grievance Committe
                     </Link>
                     <Link to="/magazine" className="dropdown-item">
-                      <i class="fas fa-tasks icon me-2"></i>Internal Quality Assurance Committee
+                      <i className="fas fa-tasks icon me-2"></i>Internal Quality Assurance Committee
                     </Link>
                   
                   </div>
@@ -287,22 +287,22 @@ const NavBar = () => {
                 {showAcaDeptDropdown && (
                   <div className="publications-dropdown-menu">
                     <Link to="/magazine" className="dropdown-item">
-                    <i class="fas fa-atom me-2"></i>Basic Science and Humanities 
+                    <i className="fas fa-atom me-2"></i>Basic Science and Humanities 
                     </Link>
                     <Link to="/newsletter" className="dropdown-item">
-                    <i class="fas fa-desktop me-2"></i>Computer Science Engineering
+                    <i className="fas fa-desktop me-2"></i>Computer Science Engineering
                     </Link>
                     <Link to="/annual-report" className="dropdown-item">
-                    <i class="fas fa-microchip me-2"></i>Electronic And Communication Engineering
+                    <i className="fas fa-microchip me-2"></i>Electronic And Communication Engineering
                     </Link>
                     <Link to="/research-papers" className="dropdown-item">
-                    <i class="fas fa-bolt me-2"></i> Electrical Engineering
+                    <i className="fas fa-bolt me-2"></i> Electrical Engineering
                     </Link>
                     <Link to="/research-papers" className="dropdown-item">
-                    <i class="fas fa-cogs me-2"></i>Mechanical Engineering
+                    <i className="fas fa-cogs me-2"></i>Mechanical Engineering
                     </Link>
                     <Link to="/research-papers" className="dropdown-item">
-                    <i class="fas fa-ruler-combined me-2"></i>Civil Engineering
+                    <i className="fas fa-ruler-combined me-2"></i>Civil Engineering
                     </Link>
                   </div>
                 )}
@@ -330,7 +330,7 @@ const NavBar = () => {
                 {showAcaEventDropdown && (
                   <div className="publications-dropdown-menu">
                     <Link to="/magazine" className="dropdown-item">
-                    <i class="fas fa-infinity me-2"></i> Tech Fest
+                    <i className="fas fa-infinity me-2"></i> Tech Fest
                     </Link>
                     <Link to="/newsletter" className="dropdown-item">
                       <i className="fas fa-question-circle me-2"></i>Tech Quiz
@@ -366,10 +366,10 @@ const NavBar = () => {
                 {showInterviewsDropdown && (
                   <div className="publications-dropdown-menu">
                     <Link to="/newsletter" className="dropdown-item">
-                    <i class="fas fa-wifi icon me-2"></i>Online
+                    <i className="fas fa-wifi icon me-2"></i>Online
                     </Link>
                     <Link to="/magazine" className="dropdown-item">
-                    <i class="fas fa-globe me-2"></i>Offline
+                    <i className="fas fa-globe me-2"></i>Offline
                     </Link>
                    
                   </div>
@@ -397,7 +397,7 @@ const NavBar = () => {
                 {showFestGalDropdown && (
                   <div className="publications-dropdown-menu">
                     <Link to="/newsletter" className="dropdown-item">
-                    <i class="fas fa-wifi icon me-2"></i>Online
+                    <i className="fas fa-wifi icon me-2"></i>Online
                     </Link>
                     
                    
