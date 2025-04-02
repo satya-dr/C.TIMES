@@ -287,10 +287,10 @@ const TeamPage = () => {
           <h4 className="footer-title">Support</h4>
           <div className="links">
           <ul className="footer-links">
-            <li><a href="/"><i className="fa-brands mx-1 fa-rocketchat"></i>chat</a></li>
-            <li><a href="/"><i className="fa-solid mx-1 fa-phone"></i>contact</a></li>
-            <li><a href="/"><i className="fa-solid mx-1 fa-file"></i>Documentation</a></li>
-            <li><a href="/"><i className="fa-solid mx-1 fa-question"></i>FAQ</a></li>
+            <li><a href="https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html"><i className="fa-brands mx-1 fa-rocketchat"></i>chat</a></li>
+            <li><a href="https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html"><i className="fa-solid mx-1 fa-phone"></i>contact</a></li>
+            <li><a href="https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html"><i className="fa-solid mx-1 fa-file"></i>Documentation</a></li>
+            <li><a href="https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html"><i className="fa-solid mx-1 fa-question"></i>FAQ</a></li>
           </ul>
           </div>
         </div>
@@ -309,9 +309,9 @@ const TeamPage = () => {
           <h4 className="footer-title">Legal</h4>
           <div className="links">
           <ul className="footer-links">
-            <li><a href="/"><i className="fa-brands mx-1 fa-servicestack"></i>terms and condition</a></li>
-            <li><a href="/">paragraphs</a></li>
-            <li><a href="/"><i className="fa-solid mx-1 fa-cookie"></i>Cookies</a></li>
+            <li><a href="https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html"><i className="fa-brands mx-1 fa-servicestack"></i>terms and condition</a></li>
+            <li><a href="https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html">paragraphs</a></li>
+            <li><a href="https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html"><i className="fa-solid mx-1 fa-cookie"></i>Cookies</a></li>
           </ul>
           </div>
         </div>
