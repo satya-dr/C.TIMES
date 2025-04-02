@@ -149,6 +149,13 @@ const TeamPage = () => {
         role: "I am Soumadeep Das 1st year CSE from Cooch Behar Government engineering college  ",
         photo: require('./Member_photos/Soumadeep Das.jpg'),
       },
+      {
+        id: 22,
+        name: "Adityava Gangopadhyay",
+        position: "Content Writer",
+        role: "I am Adityava Gangopadhyay 1st year CSE from Cooch Behar Government engineering college  ",
+        photo: '',
+      },
       
   ];
   const validateEmail = (email) => {
@@ -236,7 +243,7 @@ const TeamPage = () => {
                   alt={member.name}
                   className="member-photo"
                   onError={(e) => {
-                    e.target.src = 'https://via.placeholder.com/150'; 
+                    e.target.src = 'member photo'; 
                   }}
                 />
               </div>
