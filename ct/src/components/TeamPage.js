@@ -7,6 +7,7 @@ import clgLogo from './photos/ct.jpg';
 import logo from './photos/cgectimes.png';
 
 
+
 const TeamPage = () => {
   const [email, setEmail] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -58,39 +59,46 @@ const TeamPage = () => {
       },
       
       {
-        id: 8,
+        id: 7,
         name: "Shubhojit Hazra",
         position: "Content Writer",
         role: "I am Shubhojit Hazra 2nd year EE from Cooch Behar Government engineering college",
         photo: require('./Member_photos/SHUBHOJIT HAZRA.jpg'),
       },
       {
-        id: 9,
+        id: 8,
         name: "Nabajyoti Nag",
         position: "Graphic Designer",
         role: "I am Nabajyoti Nag 2nd year ECE from Cooch Behar Government engineering college",
       photo: require('./Member_photos/Nabajyoti Nag.jpg'),
       },
       {
-        id: 10,
+        id: 9,
         name: "Tamanna Mishra",
         position: "Tech member",
         role: "I am Tamanna Mishra 2nd year CSE from Cooch Behar Government engineering college",
       photo: require('./Member_photos/Tamanna.jpg'),
       },
       {
-        id: 11,
+        id: 10,
         name: "Satyajit Roy",
         position: "Tech member",
         role: "I am Satyajit Roy 1st year CSE from Cooch Behar Government engineering college ",
         photo: require('./Member_photos/me1.jpg'),
       },
       {
-        id: 12,
+        id: 11,
         name: "Debojit Sarkar",
         position: "Graphic Designer",
         role: "I am Debojit Sarkar 1st year CSE from Cooch Behar Government engineering college ",
         photo: require('./Member_photos/Debojit Sarkar.jpg'),
+      },
+      {
+        id: 12,
+        name: "Rishav Prasad",
+        position: "Social Media Handler ",
+        role: "I am Rishav Prasad 1st year CSE from Cooch Behar Government engineering college",
+        photo: require('./Member_photos/Rishav Prasad.jpg'),
       },
       {
         id: 13,
@@ -122,13 +130,6 @@ const TeamPage = () => {
       },
       {
         id: 17,
-        name: "Rishav Prasad",
-        position: "Social Media Handler ",
-        role: "I am Rishav Prasad 1st year CSE from Cooch Behar Government engineering college",
-        photo: require('./Member_photos/Rishav Prasad.jpg'),
-      },
-      {
-        id: 18,
         name: "Parthiv Bania",
         position: "Tech member",
         role: "I am Parthiv Bania 1st year CSE from Cooch Behar Government engineering college",
@@ -136,25 +137,25 @@ const TeamPage = () => {
       },
       
       {
-        id: 20,
+        id: 18,
         name: "Nirupam Konar",
         position: "Video editor",
         role: "I am Nirupam Konar 1st year ECE from Cooch Behar Government engineering college",
         photo: require('./Member_photos/NIRUPAM KONAR.jpg'),
       },
       {
-        id: 21,
+        id: 19,
         name: "Soumadeep Das",
         position: "Cartoonist",
         role: "I am Soumadeep Das 1st year CSE from Cooch Behar Government engineering college  ",
         photo: require('./Member_photos/Soumadeep Das.jpg'),
       },
       {
-        id: 22,
+        id: 20,
         name: "Adityava Gangopadhyay",
         position: "Content Writer",
         role: "I am Adityava Gangopadhyay 1st year CSE from Cooch Behar Government engineering college  ",
-        photo: '',
+        photo: require('./Member_photos/Aditav.jpg'),
       },
       
   ];
