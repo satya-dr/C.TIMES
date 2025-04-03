@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/C.TIMES/static/css/main.4ae9c145.css",
-    "main.js": "/C.TIMES/static/js/main.17b1b6b6.js",
+    "main.js": "/C.TIMES/static/js/main.bd23d2d5.js",
     "static/js/453.2cb530a1.chunk.js": "/C.TIMES/static/js/453.2cb530a1.chunk.js",
     "static/media/AYAN ROY.jpg": "/C.TIMES/static/media/AYAN ROY.bcad8e00fe8b46d266c2.jpg",
     "static/media/HDR.jpg": "/C.TIMES/static/media/HDR.4fdc50b8edf658abfba0.jpg",
@@ -20,6 +20,7 @@
     "static/media/jgecVScgec.jpg": "/C.TIMES/static/media/jgecVScgec.312032bc5b9505e5fbc9.jpg",
     "static/media/Arya Ghosh.jpg": "/C.TIMES/static/media/Arya Ghosh.b54b7754fd6d16dcac86.jpg",
     "static/media/sketch.jpg": "/C.TIMES/static/media/sketch.0a4d5e091d364ce2daf7.jpg",
+    "static/media/Aditav.jpg": "/C.TIMES/static/media/Aditav.3b7bb43914a7adc81dcc.jpg",
     "static/media/cgec_acdemic.jpeg": "/C.TIMES/static/media/cgec_acdemic.d85266d725e1a5ac11db.jpeg",
     "static/media/Parthiv.jpg": "/C.TIMES/static/media/Parthiv.a015a5386dfc2e9706b1.jpg",
     "static/media/NIRUPAM KONAR.jpg": "/C.TIMES/static/media/NIRUPAM KONAR.8d20b64856a8310b643f.jpg",
@@ -38,11 +39,11 @@
     "static/media/clgLogo.png": "/C.TIMES/static/media/clgLogo.94a2e46c11315d67611c.png",
     "index.html": "/C.TIMES/index.html",
     "main.4ae9c145.css.map": "/C.TIMES/static/css/main.4ae9c145.css.map",
-    "main.17b1b6b6.js.map": "/C.TIMES/static/js/main.17b1b6b6.js.map",
+    "main.bd23d2d5.js.map": "/C.TIMES/static/js/main.bd23d2d5.js.map",
     "453.2cb530a1.chunk.js.map": "/C.TIMES/static/js/453.2cb530a1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ae9c145.css",
-    "static/js/main.17b1b6b6.js"
+    "static/js/main.bd23d2d5.js"
   ]
 }
