@@ -508,6 +508,7 @@ transform: translateY(-2px);
   }
   
   .dateDetails {
+    margin-top: 13px;
     font-size: 12px;
     padding: 8px;
   }
