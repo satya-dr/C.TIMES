@@ -27,10 +27,9 @@ const EventsSection = () => {
       },
       {
         id: 4,
-        name: "ESPERANZA",
+        name: "ESPERANZA 2025",
         newsUrl:'https://satya-dr.github.io/CGEC-TIMES/mainWeb/comingSoon/index.html',
-        description: "Join us at Cooch Behar Government Engineering College for a spectacular fashion show, showcasing trendy designs and creative styles on the runway. Don’t miss this night of glamour, talent, and entertainment!"
-      },
+        description: "🎉 The countdown begins! Get ready to unleash the excitement at ESPERANZA 2K25 – where passion meets celebration! 🔥✨ Join us from April 21st -25th  and be part of the biggest fest of the year! 🚀💃 #Esperanza2K25 "},
     ]
   };
 
