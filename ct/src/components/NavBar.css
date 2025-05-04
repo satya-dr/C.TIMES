@@ -533,3 +533,46 @@ transform: translateY(-2px);
 
 
 
+
+/* 
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode .navbar {
+  background-color: #1a1a1a !important;
+}
+
+.dark-mode .user-dropdown-menu {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+}
+
+.dark-mode .dropdown-item {
+  color: #ffffff;
+}
+
+.dark-mode .dropdown-item:hover {
+  background-color: #333;
+  color: #ffffff;
+}
+
+.dark-mode .email-btn a {
+  color: #ffffff;
+}
+
+.dark-mode .publication-item {
+  background-color: #333;
+  color: #ffffff;
+}
+
+.dark-mode .publications-dropdown-menu {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+}
+
+.dark-mode .dateDetails u {
+  color: #ffffff;
+}
+ */
