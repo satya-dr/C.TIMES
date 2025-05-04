@@ -13,25 +13,49 @@ const TeamPage = () => {
 
   const sampleCertificates = [
     {
-      id: "CGEC2025001",
+      id: "CT2025001",
       name: "Satyajit Roy",
       issuedOn: "2025-04-27",
       type: "Tech Leader",
     },
     {
-      id: "CGEC2025002",
+      id: "CT2025002",
+      name: "Ayan Roy",
+      issuedOn: "2025-04-15",
+      type: "Inchearge",
+    },
+    {
+      id: "CT2025003",
+      name: "Debojit Sarkar",
+      issuedOn: "2025-04-15",
+      type: "Inchearge",
+    },
+    {
+      id: "CT2025004",
+      name: "Rishav Prashad",
+      issuedOn: "2025-04-15",
+      type: "SOcial Media handelar",
+    },
+    {
+      id: "CT2025005",
+      name: "Subham Saha",
+      issuedOn: "2025-04-15",
+      type: "Tech Member",
+    },
+    {
+      id: "CT2025006",
       name: "Arya Ghosh",
       issuedOn: "2025-04-15",
       type: "Inchearge",
     },
     {
-      id: "CGEC2025003",
+      id: "CT2025007",
       name: "Dibyendu Koley",
       issuedOn: "2025-04-16",
       type: "Co-Incharge",
     },
     {
-      id: "CGEC2025004",
+      id: "CT2025008",
       name: "Anwesha Ghosh",
       issuedOn: "2025-04-17",
       type: "Member",
