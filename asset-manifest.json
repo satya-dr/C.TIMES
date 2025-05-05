@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/C.TIMES/static/css/main.a6de89fb.css",
-    "main.js": "/C.TIMES/static/js/main.85748099.js",
+    "main.js": "/C.TIMES/static/js/main.667fa05e.js",
     "static/js/453.2cb530a1.chunk.js": "/C.TIMES/static/js/453.2cb530a1.chunk.js",
     "static/media/AYAN ROY.jpg": "/C.TIMES/static/media/AYAN ROY.bcad8e00fe8b46d266c2.jpg",
     "static/media/HDR.jpg": "/C.TIMES/static/media/HDR.4fdc50b8edf658abfba0.jpg",
@@ -39,11 +39,11 @@
     "static/media/clgLogo.png": "/C.TIMES/static/media/clgLogo.94a2e46c11315d67611c.png",
     "index.html": "/C.TIMES/index.html",
     "main.a6de89fb.css.map": "/C.TIMES/static/css/main.a6de89fb.css.map",
-    "main.85748099.js.map": "/C.TIMES/static/js/main.85748099.js.map",
+    "main.667fa05e.js.map": "/C.TIMES/static/js/main.667fa05e.js.map",
     "453.2cb530a1.chunk.js.map": "/C.TIMES/static/js/453.2cb530a1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6de89fb.css",
-    "static/js/main.85748099.js"
+    "static/js/main.667fa05e.js"
   ]
 }
