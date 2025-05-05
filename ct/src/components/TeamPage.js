@@ -34,7 +34,7 @@ const TeamPage = () => {
       id: "CT2025004",
       name: "Rishav Prashad",
       issuedOn: "2025-04-15",
-      type: "SOcial Media handelar",
+      type: "Social Media handelar",
     },
     {
       id: "CT2025005",
@@ -207,27 +207,49 @@ const TeamPage = () => {
       photo: require("./Member_photos/Aditav.jpg"),
     },
   ];
+  const [emails, setEmails] = useState([]); // Array to store emails
   const validateEmail = (email) => {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return re.test(email);
   };
-
+  useEffect(() => {
+    const savedEmails = JSON.parse(localStorage.getItem("subscribedEmails")) || [];
+    setEmails(savedEmails);
+  }, []);
   const handleSendClick = () => {
     if (!email) {
-      alert(`Please enter your email address`);
+      alert("Please enter your email address");
       return;
     }
-
+  
     if (!validateEmail(email)) {
       alert("Please enter a valid email address");
       return;
     }
-
-    alert(`Email:- ${email} submitted!\nThanks for being a part of us 🧡`);
-    setEmail("");
+  
+    const updatedEmails = [...emails, email];
+    
+    setEmails(updatedEmails);
+    
+    localStorage.setItem("subscribedEmails", JSON.stringify(updatedEmails));
+  
+    alert(`Thank you! Your email (${email}) has been saved.`);
+    setEmail(""); // Clear input field
     setIsSubmitted(true);
     setTimeout(() => setIsSubmitted(false), 3000);
   };
+
+
+  //For traller
+  const viewSavedEmails = () => {
+    const savedEmails = JSON.parse(localStorage.getItem("subscribedEmails")) || [];
+    console.log("Saved Emails:", savedEmails);
+    alert(`Total Emails Saved: ${savedEmails.length}\nEmails: ${savedEmails.join(", ")}`);
+  };
+  <button onClick={viewSavedEmails} style={{ marginTop: "10px" }}>
+  View Saved Emails (For Testing)
+</button>
+
 
   useEffect(() => {
     if (verificationResult) {
@@ -273,6 +295,9 @@ const TeamPage = () => {
       setCertificateId("");
     }, 1000);
   };
+
+  
+
 
   const handleKeyPress = (e) => {
     if (e.key === "Enter") {
@@ -483,8 +508,8 @@ const TeamPage = () => {
         </div>
 
         <div className="clg d-flex">
-          <img src={clgLogo} alt="" />
-          <img src={logo} alt="" />
+          <img className="ctLogo" src={clgLogo} alt="" />
+          <img className="cgectimes" src={logo} alt="" />
           <div className="social d-flex">
             <a
               style={{ textDecoration: "none" }}
@@ -540,3 +565,90 @@ const TeamPage = () => {
 };
 
 export default TeamPage;
+
+
+
+// import React, { useState, useEffect } from "react";
+// import "./TeamPage.css";
+
+// const TeamPage = () => {
+//   const [email, setEmail] = useState("");
+//   const [isSubmitted, setIsSubmitted] = useState(false);
+//   const [emails, setEmails] = useState([]);
+
+//   // Load saved emails on component mount
+//   useEffect(() => {
+//     const savedEmails = JSON.parse(localStorage.getItem("subscribedEmails")) || [];
+//     setEmails(savedEmails);
+//   }, []);
+
+//   const validateEmail = (email) => {
+//     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+//     return re.test(email);
+//   };
+
+//   const handleSendClick = () => {
+//     if (!email) {
+//       alert("Please enter your email address");
+//       return;
+//     }
+
+//     if (!validateEmail(email)) {
+//       alert("Please enter a valid email address");
+//       return;
+//     }
+
+//     const updatedEmails = [...emails, email];
+//     setEmails(updatedEmails);
+//     localStorage.setItem("subscribedEmails", JSON.stringify(updatedEmails));
+
+//     alert(`Thank you! Your email (${email}) has been saved.`);
+//     setEmail("");
+//     setIsSubmitted(true);
+//     setTimeout(() => setIsSubmitted(false), 3000);
+//   };
+
+//   // Optional: Reset all emails
+//   const resetEmails = () => {
+//     if (window.confirm("Are you sure you want to delete all saved emails?")) {
+//       setEmails([]);
+//       localStorage.removeItem("subscribedEmails");
+//     }
+//   };
+
+//   return (
+//     <div className="team-container">
+//       {/* ... other existing code ... */}
+
+//       <div className="join-form">
+//         <input
+//           type="email"
+//           placeholder="Enter your email"
+//           value={email}
+//           onChange={(e) => setEmail(e.target.value)}
+//         />
+//         <button onClick={handleSendClick}>
+//           {isSubmitted ? "Submitted!" : "Submit"}
+//         </button>
+//       </div>
+
+//       {/* Saved emails list */}
+//       <div className="saved-emails-section">
+//         <h3>Subscribed Emails ({emails.length})</h3>
+//         <ul>
+//           {emails.map((email, index) => (
+//             <li key={index}>{email}</li>
+//           ))}
+//         </ul>
+//         <button 
+//           onClick={resetEmails} 
+//           style={{ background: "red", color: "white", marginTop: "10px" }}
+//         >
+//           Clear All Emails
+//         </button>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default TeamPage;

@@ -77,7 +77,7 @@ const NavBar = () => {
             <div className="navbar-brand d-flex align-items-center">
               <img src={clgLogo} alt="Logo" className="logo-img mx-2" />
               <span className="dept-names">
-                BSH | CSE || | ECE | EE || ME | CE
+                BSH | CSE || ECE | EE || ME | CE
               </span>
               <img src={clgLogo} alt="Logo" className="logo-img mx-2" />
             </div>

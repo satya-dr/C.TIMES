@@ -387,7 +387,7 @@
 .footer-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   gap: 2rem;
 }
 
@@ -447,9 +447,7 @@
   gap: 1rem;
 }
 
-.clg img {
-  transition: transform 0.3s ease;
-}
+
 
 .clg img:first-child {
   width: 60px;
@@ -461,10 +459,6 @@
   width: 120px;
 }
 
-.clg img:hover {
-  transform: scale(1.05
-  );
-}
 
 .social {
   display: flex;
@@ -502,7 +496,8 @@
 }
 
 .copyright {
-  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
   text-align: center;
   margin-top: 2rem;
   color: #302828;
@@ -565,9 +560,15 @@
   .clg {
     display: flex;
     justify-content: space-between;
- 
+   
     align-items: center;
     gap: 1rem;
+  }
+  .clg .ctLogo{
+    height: 50px;
+  }
+  .clg .cgectimes{
+    height: 35px;
   }
 
   .social {
