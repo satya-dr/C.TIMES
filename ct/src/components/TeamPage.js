@@ -4,7 +4,7 @@ import clgLogo from "./photos/ct.jpg";
 import logo from "./photos/cgectimes.png";
 
 const TeamPage = () => {
-  const [email, setEmail] = useState("");
+
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const [certificateId, setCertificateId] = useState("");
@@ -14,52 +14,132 @@ const TeamPage = () => {
   const sampleCertificates = [
     {
       id: "CT2025001",
-      name: "Satyajit Roy",
-      issuedOn: "2025-04-27",
-      type: "Tech Leader",
+      name: "Arya Ghosh",
+      issuedOn: "05-05-2025",
+     
     },
     {
       id: "CT2025002",
-      name: "Ayan Roy",
-      issuedOn: "2025-04-15",
-      type: "Inchearge",
+      name: "Roopam Barman",
+      issuedOn: "05-05-2025",
+     
     },
     {
       id: "CT2025003",
-      name: "Debojit Sarkar",
-      issuedOn: "2025-04-15",
-      type: "Inchearge",
+      name: "Kankana Sikder",
+      issuedOn: "05-05-2025",
+     
     },
     {
       id: "CT2025004",
-      name: "Rishav Prashad",
-      issuedOn: "2025-04-15",
-      type: "Social Media handelar",
+      name: "Nirupam Konar ",
+      issuedOn: "05-05-2025",
+     
     },
     {
       id: "CT2025005",
-      name: "Subham Saha",
-      issuedOn: "2025-04-15",
-      type: "Tech Member",
+      name: "Arijit Manna ",
+      issuedOn: "05-05-2025",
+     
     },
     {
       id: "CT2025006",
-      name: "Arya Ghosh",
-      issuedOn: "2025-04-15",
-      type: "Inchearge",
+      name: "Debayan Sarkar ",
+      issuedOn: "05-05-2025",
+     
     },
     {
       id: "CT2025007",
-      name: "Dibyendu Koley",
-      issuedOn: "2025-04-16",
-      type: "Co-Incharge",
+      name: "Anushka Roy",
+      issuedOn: "05-05-2025",
+     
     },
     {
       id: "CT2025008",
-      name: "Anwesha Ghosh",
-      issuedOn: "2025-04-17",
-      type: "Member",
+      name: "Satyajit Roy",
+      issuedOn: "05-05-2025",
+     
     },
+    {
+      id: "CT2025009",
+      name: "Adityava Gangopadhyay ",
+      issuedOn: "05-05-2025",
+     
+    },
+    {
+      id: "CT2025010",
+      name: "Joydeep Mitra ",
+      issuedOn: "05-05-2025",
+     
+    },
+    {
+      id: "CT2025011",
+      name: "Shubham Mondal",
+      issuedOn: "05-05-2025",
+     
+    },
+    {
+      id: "CT2025012",
+      name: "JOY DEY",
+      issuedOn: "05-05-2025",
+     
+    },
+    {
+      id: "CT2025013",
+      name: "Dibyendu Koley ",
+      issuedOn: "05-05-2025",
+     
+    },
+    {
+      id: "CT2025014",
+      name: "Preyashi Biswas ",
+      issuedOn: "05-05-2025",
+     
+    },
+    {
+      id: "CT2025015",
+      name: "Nabajyoti Nag ",
+      issuedOn: "05-05-2025",
+     
+    },
+    {
+      id: "CT2025016",
+      name: "Rishav Prasad ",
+      issuedOn: "05-05-2025",
+     
+    },
+    {
+      id: "CT2025017",
+      name: "Nabanita Barai",
+      issuedOn: "05-05-2025",
+     
+    },
+    {
+      id: "CT2025018",
+      name: "Abir Majumder",
+      issuedOn: "05-05-2025",
+     
+    },
+    
+    {
+      id: "CT2025019",
+      name: "Bhargabi Mukherjee",
+      issuedOn: "05-05-2025",
+     
+    },
+    {
+      id: "CT2025020",
+      name: "Ayan Roy",
+      issuedOn: "05-05-2025",
+      
+    },
+    {
+      id: "CT2025021",
+      name: "Debojit Sarkar",
+      issuedOn: "05-05-2025",
+     
+    },
+  
   ];
 
   const teamMembers = [
@@ -207,15 +287,11 @@ const TeamPage = () => {
       photo: require("./Member_photos/Aditav.jpg"),
     },
   ];
-  const [emails, setEmails] = useState([]); // Array to store emails
   const validateEmail = (email) => {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return re.test(email);
   };
-  useEffect(() => {
-    const savedEmails = JSON.parse(localStorage.getItem("subscribedEmails")) || [];
-    setEmails(savedEmails);
-  }, []);
+
   const handleSendClick = () => {
     if (!email) {
       alert("Please enter your email address");
@@ -234,28 +310,20 @@ const TeamPage = () => {
     localStorage.setItem("subscribedEmails", JSON.stringify(updatedEmails));
   
     alert(`Thank you! Your email (${email}) has been saved.`);
-    setEmail(""); // Clear input field
+    setEmail("");
     setIsSubmitted(true);
     setTimeout(() => setIsSubmitted(false), 3000);
   };
 
 
-  //For traller
-  const viewSavedEmails = () => {
-    const savedEmails = JSON.parse(localStorage.getItem("subscribedEmails")) || [];
-    console.log("Saved Emails:", savedEmails);
-    alert(`Total Emails Saved: ${savedEmails.length}\nEmails: ${savedEmails.join(", ")}`);
-  };
-  <button onClick={viewSavedEmails} style={{ marginTop: "10px" }}>
-  View Saved Emails (For Testing)
-</button>
+
 
 
   useEffect(() => {
     if (verificationResult) {
       const timer = setTimeout(() => {
         setVerificationResult(null);
-      }, 3000);
+      }, 5000);
 
       return () => clearTimeout(timer);
     }
@@ -287,7 +355,7 @@ const TeamPage = () => {
       } else {
         setVerificationResult({
           success: false,
-          message: "Certificate not found. Please check the ID and try again.",
+          message: "Certificate ID is worng. Please check the ID and try again.",
         });
       }
 
@@ -464,7 +532,7 @@ const TeamPage = () => {
                       {verificationResult.data.issuedOn}
                     </p>
                     <p>
-                      <strong>Type:</strong> {verificationResult.data.type}
+                      {verificationResult.data.name} is Verified by CGEC-TIMES <i className="fas fa-check-circle success-icon"></i>
                     </p>
                   </div>
                 )}
