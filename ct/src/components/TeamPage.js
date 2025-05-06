@@ -62,7 +62,7 @@ const TeamPage = () => {
      
     },
     {
-      id: "CT2025010",
+      id: "CT2025009",
       name: "Adityava Gangopadhyay ",
       issuedOn: "05-05-2025",
      
@@ -123,30 +123,48 @@ const TeamPage = () => {
     },
     
     {
-      id: "CT2025020",
+      id: "CT2025019",
       name: "Bhargabi Mukherjee",
       issuedOn: "05-05-2025",
      
     },
     {
-      id: "CT2025021",
+      id: "CT2025020",
       name: "Ayan Roy",
       issuedOn: "05-05-2025",
       
     },
     {
-      id: "CT2025022",
+      id: "CT2025021",
       name: "Debojit Sarkar",
       issuedOn: "05-05-2025",
      
     },
-   
+    {
+      id: "CT2025022",
+      name: "Suprakash Halder",
+      issuedOn: "05-05-2025",
+     
+    },
     {
       id: "CT2025023",
-      name: "Subham Saha",
+      name: "Rohan Kumar",
       issuedOn: "05-05-2025",
-      
+     
     },
+    {
+      id: "CT2025024",
+      name: "Saurav Kewat",
+      issuedOn: "05-05-2025",
+     
+    },
+    {
+      id: "CT2025025",
+      name: "Ishan Mishra",
+      issuedOn: "05-05-2025",
+     
+    },
+  
   ];
 
   const teamMembers = [
