@@ -17,154 +17,138 @@ const TeamPage = () => {
       id: "CT2025001",
       name: "Arya Ghosh",
       issuedOn: "05-05-2025",
-     
     },
     {
       id: "CT2025002",
       name: "Roopam Barman",
       issuedOn: "05-05-2025",
-     
     },
     {
       id: "CT2025003",
       name: "Kankana Sikder",
       issuedOn: "05-05-2025",
-     
     },
     {
       id: "CT2025004",
       name: "Nirupam Konar ",
       issuedOn: "05-05-2025",
-     
     },
     {
       id: "CT2025005",
       name: "Arijit Manna ",
       issuedOn: "05-05-2025",
-     
     },
     {
       id: "CT2025006",
       name: "Debayan Sarkar ",
       issuedOn: "05-05-2025",
-     
     },
     {
       id: "CT2025007",
       name: "Anushka Roy",
       issuedOn: "05-05-2025",
-     
     },
     {
       id: "CT2025008",
       name: "Satyajit Roy",
       issuedOn: "05-05-2025",
-     
     },
     {
       id: "CT2025009",
       name: "Adityava Gangopadhyay ",
       issuedOn: "05-05-2025",
-     
     },
     {
       id: "CT2025010",
       name: "Joydeep Mitra ",
       issuedOn: "05-05-2025",
-     
     },
     {
       id: "CT2025011",
       name: "Shubham Mondal",
       issuedOn: "05-05-2025",
-     
     },
     {
       id: "CT2025012",
       name: "JOY DEY",
       issuedOn: "05-05-2025",
-     
     },
     {
       id: "CT2025013",
       name: "Dibyendu Koley ",
       issuedOn: "05-05-2025",
-     
     },
     {
       id: "CT2025014",
       name: "Preyashi Biswas ",
       issuedOn: "05-05-2025",
-     
     },
     {
       id: "CT2025015",
       name: "Nabajyoti Nag ",
       issuedOn: "05-05-2025",
-     
     },
     {
       id: "CT2025016",
       name: "Rishav Prasad ",
       issuedOn: "05-05-2025",
-     
     },
     {
       id: "CT2025017",
       name: "Nabanita Barai",
       issuedOn: "05-05-2025",
-     
     },
     {
       id: "CT2025018",
       name: "Abir Majumder",
       issuedOn: "05-05-2025",
-     
     },
-    
+
     {
       id: "CT2025019",
       name: "Bhargabi Mukherjee",
       issuedOn: "05-05-2025",
-     
     },
     {
       id: "CT2025020",
       name: "Ayan Roy",
       issuedOn: "05-05-2025",
-      
     },
     {
       id: "CT2025021",
       name: "Debojit Sarkar",
       issuedOn: "05-05-2025",
-     
     },
     {
       id: "CT2025022",
       name: "Suprakash Halder",
       issuedOn: "05-05-2025",
-     
     },
     {
       id: "CT2025023",
       name: "Rohan Kumar",
       issuedOn: "05-05-2025",
-     
     },
     {
       id: "CT2025024",
       name: "Saurav Kewat",
       issuedOn: "05-05-2025",
-     
     },
     {
       id: "CT2025025",
       name: "Ishan Mishra",
       issuedOn: "05-05-2025",
-     
     },
-  
+    {
+      id: "CT2025026",
+      name: "Chiradeep Mukherjee",
+      issuedOn: "05-05-2025",
+    },
+    {
+      id: "CT2025027",
+      name: "Himanshu Adhikary",
+      issuedOn: "05-05-2025",
+    },
   ];
 
   const teamMembers = [
@@ -322,27 +306,23 @@ const TeamPage = () => {
       alert("Please enter your email address");
       return;
     }
-  
+
     if (!validateEmail(email)) {
       alert("Please enter a valid email address");
       return;
     }
-  
+
     const updatedEmails = [...emails, email];
-    
+
     setEmails(updatedEmails);
-    
+
     localStorage.setItem("subscribedEmails", JSON.stringify(updatedEmails));
-  
+
     alert(`Thank you! Your email (${email}) has been saved.`);
     setEmail("");
     setIsSubmitted(true);
     setTimeout(() => setIsSubmitted(false), 3000);
   };
-
-
-
-
 
   useEffect(() => {
     if (verificationResult) {
@@ -380,7 +360,8 @@ const TeamPage = () => {
       } else {
         setVerificationResult({
           success: false,
-          message: "Certificate ID is worng. Please check the ID and try again.",
+          message:
+            "Certificate ID is worng. Please check the ID and try again.",
         });
       }
 
@@ -388,9 +369,6 @@ const TeamPage = () => {
       setCertificateId("");
     }, 1000);
   };
-
-  
-
 
   const handleKeyPress = (e) => {
     if (e.key === "Enter") {
@@ -557,7 +535,8 @@ const TeamPage = () => {
                       {verificationResult.data.issuedOn}
                     </p>
                     <p>
-                      {verificationResult.data.name} is Verified by CGEC-TIMES <i className="fas fa-check-circle success-icon"></i>
+                      {verificationResult.data.name} is Verified by CGEC-TIMES{" "}
+                      <i className="fas fa-check-circle success-icon"></i>
                     </p>
                   </div>
                 )}
@@ -659,8 +638,6 @@ const TeamPage = () => {
 
 export default TeamPage;
 
-
-
 // import React, { useState, useEffect } from "react";
 // import "./TeamPage.css";
 
@@ -733,8 +710,8 @@ export default TeamPage;
 //             <li key={index}>{email}</li>
 //           ))}
 //         </ul>
-//         <button 
-//           onClick={resetEmails} 
+//         <button
+//           onClick={resetEmails}
 //           style={{ background: "red", color: "white", marginTop: "10px" }}
 //         >
 //           Clear All Emails

@@ -19,7 +19,7 @@ const NavBar = () => {
   const [showAcaEventDropdown, setshowAcaEventDropdown] = useState(false);
   const [showInterviewsDropdown, setshowInterviewsDropdown] = useState(false);
   const [showFestGalDropdown, setshowFestGalDropdown] = useState(false);
-  
+
   const getCurrentDate = () => {
     const options = {
       weekday: "long",
@@ -36,39 +36,38 @@ const NavBar = () => {
       <div className="fixed-top bg-white">
         <nav className="navbar navbar-expand-lg navbar-light">
           <div className="head container-fluid">
-
-          <div className="user-dropdown-container ms-3"
-          onMouseEnter={() => setshowUserDropdown(true)}
-          onMouseLeave={() => setshowUserDropdown(false)}>
-                <div
-                  className="user-menu d-flex align-items-center"
-                  onClick={() => setshowUserDropdown(!showUserDropdown)}
-                  style={{ cursor: "pointer" }}
-                >
-                  <i className="fas fa-user-circle user-menu-icon"></i>
-                  <i
-                    className={`fas fa-caret-down ms-2 ${
-                      showUserDropdown ? "fa-rotate-180" : ""
-                    }`}
-                  ></i>
-                </div>
-
-                {showUserDropdown && (
-                  <div className="user-dropdown-menu">
-                    <Link to="/profile" className="dropdown-item">
-                      <i className="fas fa-user me-2"></i>Profile
-                    </Link>
-                    <Link to="/settings" className="dropdown-item">
-                      <i className="fas fa-cog me-2"></i>Settings
-                    </Link>
-                    <Link to="/logout" className="dropdown-item">
-                      <i className="fas fa-sign-out-alt me-2"></i>Logout
-                    </Link>
-                  </div>
-                )}
+            <div
+              className="user-dropdown-container ms-3"
+              onMouseEnter={() => setshowUserDropdown(true)}
+              onMouseLeave={() => setshowUserDropdown(false)}
+            >
+              <div
+                className="user-menu d-flex align-items-center"
+                onClick={() => setshowUserDropdown(!showUserDropdown)}
+                style={{ cursor: "pointer" }}
+              >
+                <i className="fas fa-user-circle user-menu-icon"></i>
+                <i
+                  className={`fas fa-caret-down ms-2 ${
+                    showUserDropdown ? "fa-rotate-180" : ""
+                  }`}
+                ></i>
               </div>
 
-
+              {showUserDropdown && (
+                <div className="user-dropdown-menu">
+                  <Link to="/profile" className="dropdown-item">
+                    <i className="fas fa-user me-2"></i>Profile
+                  </Link>
+                  <Link to="/settings" className="dropdown-item">
+                    <i className="fas fa-cog me-2"></i>Settings
+                  </Link>
+                  <Link to="/logout" className="dropdown-item">
+                    <i className="fas fa-sign-out-alt me-2"></i>Logout
+                  </Link>
+                </div>
+              )}
+            </div>
 
             {/* <div className="search-box">
                             <input className="form-control" type="text" placeholder="Search" />
@@ -97,8 +96,6 @@ const NavBar = () => {
               <a href="https://www.facebook.com/people/The-CGEC-TIMES/100088137340330/">
                 <i className="fab fa-facebook-f mx-2 faceBook social-icon"></i>
               </a>
-
-              
             </div>
           </div>
         </nav>
@@ -149,9 +146,6 @@ const NavBar = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="d-flex flex-wrap justify-content-center align-items-center">
-
-
-
               <div
                 className="position-relative d-inline-block me-3 my-1"
                 onMouseEnter={() => setshowPublicationsDropdown(true)}
@@ -190,9 +184,6 @@ const NavBar = () => {
                 )}
               </div>
 
-
-
-
               <div
                 className="position-relative d-inline-block me-3 my-1"
                 onMouseEnter={() => setshowSportsDropdown(true)}
@@ -213,7 +204,8 @@ const NavBar = () => {
                 {showSportsDropdown && (
                   <div className="publications-dropdown-menu">
                     <Link to="/magazine" className="dropdown-item">
-                    <i className="fas fa-baseball-bat-ball icon me-2"></i>Cricket
+                      <i className="fas fa-baseball-bat-ball icon me-2"></i>
+                      Cricket
                     </Link>
                     <Link to="/newsletter" className="dropdown-item">
                       <i className="fas fa-futbol me-2"></i>Football
@@ -227,9 +219,6 @@ const NavBar = () => {
                   </div>
                 )}
               </div>
-
-
-
 
               <div
                 className="position-relative d-inline-block me-3 my-1"
@@ -254,19 +243,17 @@ const NavBar = () => {
                       <i className="fas fa-hands-helping me-2"></i>Anti Raging
                     </Link>
                     <Link to="/magazine" className="dropdown-item">
-                    <i className="fas fa-exclamation-triangle icon me-2"></i> Internal Grievance Committe
+                      <i className="fas fa-exclamation-triangle icon me-2"></i>{" "}
+                      Internal Grievance Committe
                     </Link>
                     <Link to="/magazine" className="dropdown-item">
-                      <i className="fas fa-tasks icon me-2"></i>Internal Quality Assurance Committee
+                      <i className="fas fa-tasks icon me-2"></i>Internal Quality
+                      Assurance Committee
                     </Link>
-                  
                   </div>
                 )}
               </div>
-              
 
-
-              
               <div
                 className="position-relative d-inline-block me-3 my-1"
                 onMouseEnter={() => setshowAcaDeptDropdown(true)}
@@ -287,28 +274,31 @@ const NavBar = () => {
                 {showAcaDeptDropdown && (
                   <div className="publications-dropdown-menu">
                     <Link to="/magazine" className="dropdown-item">
-                    <i className="fas fa-atom me-2"></i>Basic Science and Humanities 
+                      <i className="fas fa-atom me-2"></i>Basic Science and
+                      Humanities
                     </Link>
                     <Link to="/newsletter" className="dropdown-item">
-                    <i className="fas fa-desktop me-2"></i>Computer Science Engineering
+                      <i className="fas fa-desktop me-2"></i>Computer Science
+                      Engineering
                     </Link>
                     <Link to="/annual-report" className="dropdown-item">
-                    <i className="fas fa-microchip me-2"></i>Electronic And Communication Engineering
+                      <i className="fas fa-microchip me-2"></i>Electronic And
+                      Communication Engineering
                     </Link>
                     <Link to="/research-papers" className="dropdown-item">
-                    <i className="fas fa-bolt me-2"></i> Electrical Engineering
+                      <i className="fas fa-bolt me-2"></i> Electrical
+                      Engineering
                     </Link>
                     <Link to="/research-papers" className="dropdown-item">
-                    <i className="fas fa-cogs me-2"></i>Mechanical Engineering
+                      <i className="fas fa-cogs me-2"></i>Mechanical Engineering
                     </Link>
                     <Link to="/research-papers" className="dropdown-item">
-                    <i className="fas fa-ruler-combined me-2"></i>Civil Engineering
+                      <i className="fas fa-ruler-combined me-2"></i>Civil
+                      Engineering
                     </Link>
                   </div>
                 )}
               </div>
-
-
 
               <div
                 className="position-relative d-inline-block me-3 my-1"
@@ -330,7 +320,7 @@ const NavBar = () => {
                 {showAcaEventDropdown && (
                   <div className="publications-dropdown-menu">
                     <Link to="/magazine" className="dropdown-item">
-                    <i className="fas fa-infinity me-2"></i> Tech Fest
+                      <i className="fas fa-infinity me-2"></i> Tech Fest
                     </Link>
                     <Link to="/newsletter" className="dropdown-item">
                       <i className="fas fa-question-circle me-2"></i>Tech Quiz
@@ -345,7 +335,6 @@ const NavBar = () => {
                 )}
               </div>
 
-
               <div
                 className="position-relative d-inline-block me-3 my-1"
                 onMouseEnter={() => setshowInterviewsDropdown(true)}
@@ -353,7 +342,9 @@ const NavBar = () => {
               >
                 <button
                   className="publication-item"
-                  onClick={() => setshowInterviewsDropdown(!showInterviewsDropdown)}
+                  onClick={() =>
+                    setshowInterviewsDropdown(!showInterviewsDropdown)
+                  }
                 >
                   Interviews{" "}
                   <i
@@ -366,16 +357,14 @@ const NavBar = () => {
                 {showInterviewsDropdown && (
                   <div className="publications-dropdown-menu">
                     <Link to="/newsletter" className="dropdown-item">
-                    <i className="fas fa-wifi icon me-2"></i>Online
+                      <i className="fas fa-wifi icon me-2"></i>Online
                     </Link>
                     <Link to="/magazine" className="dropdown-item">
-                    <i className="fas fa-globe me-2"></i>Offline
+                      <i className="fas fa-globe me-2"></i>Offline
                     </Link>
-                   
                   </div>
                 )}
               </div>
-
 
               <div
                 className="position-relative d-inline-block me-3 my-1"
@@ -397,16 +386,11 @@ const NavBar = () => {
                 {showFestGalDropdown && (
                   <div className="publications-dropdown-menu">
                     <Link to="/newsletter" className="dropdown-item">
-                    <i className="fas fa-wifi icon me-2"></i>Online
+                      <i className="fas fa-wifi icon me-2"></i>Online
                     </Link>
-                    
-                   
                   </div>
                 )}
               </div>
-
-
-              
             </div>
           </div>
         </div>
@@ -418,14 +402,6 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-
-
-
-
-
-
-
 
 // import React, { useState } from "react";
 // import { Link } from "react-router-dom";
@@ -515,7 +491,7 @@ export default NavBar;
 
 //             <div className="d-flex align-items-center">
 //               {/* Dark mode toggle button */}
-//               <button 
+//               <button
 //                 className="btn btn-sm mx-2"
 //                 onClick={toggleDarkMode}
 //                 title={darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
@@ -526,7 +502,7 @@ export default NavBar;
 //                   <i className="fas fa-moon text-dark"></i>
 //                 )}
 //               </button>
-              
+
 //               <div className={`nav-item email-btn ${darkMode ? 'dark-email-btn' : ''}`}>
 //                 <a href="mailto:thecgectimesofficial@gmail.com">
 //                   Email<i className="fas fa-envelope mx-1"></i>
@@ -586,14 +562,11 @@ export default NavBar;
 //           </div>
 //         </div>
 //       </div>
-      
 
 //       <div className={`publications-section button_sec container-fluid ${darkMode ? 'bg-dark text-light' : 'bg-white'} p-2`}>
 //         <div className="row">
 //           <div className="col-md-12">
 //             <div className="d-flex flex-wrap justify-content-center align-items-center">
-
-
 
 //               <div
 //                 className="position-relative d-inline-block me-3 my-1"
@@ -633,9 +606,6 @@ export default NavBar;
 //                 )}
 //               </div>
 
-
-
-
 //               <div
 //                 className="position-relative d-inline-block me-3 my-1"
 //                 onMouseEnter={() => setshowSportsDropdown(true)}
@@ -671,9 +641,6 @@ export default NavBar;
 //                 )}
 //               </div>
 
-
-
-
 //               <div
 //                 className="position-relative d-inline-block me-3 my-1"
 //                 onMouseEnter={() => setshowClubDropdown(true)}
@@ -702,14 +669,11 @@ export default NavBar;
 //                     <Link to="/magazine" className="dropdown-item">
 //                       <i className="fas fa-tasks icon me-2"></i>Internal Quality Assurance Committee
 //                     </Link>
-                  
+
 //                   </div>
 //                 )}
 //               </div>
-              
 
-
-              
 //               <div
 //                 className="position-relative d-inline-block me-3 my-1"
 //                 onMouseEnter={() => setshowAcaDeptDropdown(true)}
@@ -730,7 +694,7 @@ export default NavBar;
 //                 {showAcaDeptDropdown && (
 //                   <div className="publications-dropdown-menu">
 //                     <Link to="/magazine" className="dropdown-item">
-//                     <i className="fas fa-atom me-2"></i>Basic Science and Humanities 
+//                     <i className="fas fa-atom me-2"></i>Basic Science and Humanities
 //                     </Link>
 //                     <Link to="/newsletter" className="dropdown-item">
 //                     <i className="fas fa-desktop me-2"></i>Computer Science Engineering
@@ -750,8 +714,6 @@ export default NavBar;
 //                   </div>
 //                 )}
 //               </div>
-
-
 
 //               <div
 //                 className="position-relative d-inline-block me-3 my-1"
@@ -788,7 +750,6 @@ export default NavBar;
 //                 )}
 //               </div>
 
-
 //               <div
 //                 className="position-relative d-inline-block me-3 my-1"
 //                 onMouseEnter={() => setshowInterviewsDropdown(true)}
@@ -814,11 +775,10 @@ export default NavBar;
 //                     <Link to="/magazine" className="dropdown-item">
 //                     <i className="fas fa-globe me-2"></i>Offline
 //                     </Link>
-                   
+
 //                   </div>
 //                 )}
 //               </div>
-
 
 //               <div
 //                 className="position-relative d-inline-block me-3 my-1"
@@ -842,14 +802,11 @@ export default NavBar;
 //                     <Link to="/newsletter" className="dropdown-item">
 //                     <i className="fas fa-wifi icon me-2"></i>Online
 //                     </Link>
-                    
-                   
+
 //                   </div>
 //                 )}
 //               </div>
 
-
-              
 //             </div>
 //           </div>
 //         </div>
