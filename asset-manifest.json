@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.32978a90.css",
-    "main.js": "./static/js/main.895ed8f8.js",
+    "main.css": "./static/css/main.a2276975.css",
+    "main.js": "./static/js/main.338c91d2.js",
     "static/js/453.90c56029.chunk.js": "./static/js/453.90c56029.chunk.js",
     "static/media/AYAN ROY.jpg": "./static/media/AYAN ROY.bcad8e00fe8b46d266c2.jpg",
     "static/media/HDR.jpg": "./static/media/HDR.4fdc50b8edf658abfba0.jpg",
@@ -78,12 +78,12 @@
     "static/media/cgectimes.png": "./static/media/cgectimes.df502f2e843281b9b745.png",
     "static/media/clgLogo.png": "./static/media/clgLogo.94a2e46c11315d67611c.png",
     "index.html": "./index.html",
-    "main.32978a90.css.map": "./static/css/main.32978a90.css.map",
-    "main.895ed8f8.js.map": "./static/js/main.895ed8f8.js.map",
+    "main.a2276975.css.map": "./static/css/main.a2276975.css.map",
+    "main.338c91d2.js.map": "./static/js/main.338c91d2.js.map",
     "453.90c56029.chunk.js.map": "./static/js/453.90c56029.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32978a90.css",
-    "static/js/main.895ed8f8.js"
+    "static/css/main.a2276975.css",
+    "static/js/main.338c91d2.js"
   ]
 }
