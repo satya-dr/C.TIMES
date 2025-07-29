@@ -189,7 +189,6 @@
     page-break-inside: avoid;
   }
 }
-/* Add this to media queries */
 @media (max-width: 400px) {
   .about-section {
     padding: 1rem 0.5rem;

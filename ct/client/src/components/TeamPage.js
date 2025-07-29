@@ -647,11 +647,13 @@ const TeamPage = () => {
           </div>
         </div>
 
-        <div className="copyright">
-          <u>© 2025- Present The CGEC Times. All rights reserved.</u>
-        </div>
+        
       </div>
+      <div className="copyright bg-dark" >
+          <u>© 2025- Present The CGEC Times || Made by React with Love❤️ || All rights reserved.</u>
+        </div>
     </div>
+    
   );
 };
 

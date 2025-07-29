@@ -1,4 +1,4 @@
-/* Base Styles */
+
 .team-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -8,7 +8,7 @@
   overflow: hidden;
 }
 
-/* Team Header */
+
 .team-header {
   text-align: center;
   margin-bottom: 3rem;
@@ -31,8 +31,6 @@
   height: 4px;
   background: #3498db;
 }
-
-/* Team Swiper Container */
 .team-swiper-container {
   width: 100%;
   padding: 20px 0;
@@ -51,7 +49,6 @@
   align-items: center;
 }
 
-/* Member Card Styling */
 .member-card {
   background: white;
   border-radius: 10px;
@@ -104,12 +101,11 @@
   color: #666;
 }
 
-/* Remove conflicting styles */
 .auto-scroll-container, .team-members {
   display: none;
 }
 
-/* Join Section */
+
 .join-section {
   padding: 2.5rem 1rem;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
@@ -153,7 +149,6 @@
   background: #3498db;
 }
 
-/* Email Form */
 .join-names {
   display: flex;
   gap: 1rem;
@@ -202,7 +197,7 @@
   margin-top: 1rem;
 }
 
-/* Certificate Verification */
+
 .verify-input {
   display: flex;
   gap: 1rem;
@@ -248,7 +243,7 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Verification Results */
+
 .verification-result {
   padding: 1.2rem;
   border-radius: 8px;
@@ -302,7 +297,7 @@
   font-style: italic;
 }
 
-/* Loading Spinner */
+
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
@@ -319,7 +314,6 @@
   margin-right: 8px;
 }
 
-/* Footer */
 .footer-container {
   display: flex;
   flex-wrap: wrap;
@@ -429,13 +423,16 @@
 
 .copyright {
   text-align: center;
-  margin-top: 2rem;
-  color: #302828;
+  display: flex;
+  justify-content: center;
+ 
+  padding: 20px;
+  font-weight: 800;
+  color: #fff;
   font-size: 0.85rem;
   width: 100%;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
   .join-container {
     flex-direction: column;
