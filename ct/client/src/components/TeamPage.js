@@ -274,6 +274,13 @@ const TeamPage = () => {
       photo: require("./Member_photos/AYAN ROY.jpg"),
     },
     {
+      id: 17,
+      name: "Parthiv Bania",
+      position: "Tech member",
+      role: "I am Parthiv Bania 1st year CSE from Cooch Behar Government engineering college",
+      photo: require("./Member_photos/Parthiv.jpg"),
+    },
+    {
       id: 18,
       name: "Nirupam Konar",
       position: "Video editor",
