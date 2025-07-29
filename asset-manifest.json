@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/C.TIMES/static/css/main.602441e9.css",
-    "main.js": "/C.TIMES/static/js/main.573aaebb.js",
+    "main.js": "/C.TIMES/static/js/main.82d20f6e.js",
     "static/js/453.02123d28.chunk.js": "/C.TIMES/static/js/453.02123d28.chunk.js",
     "static/media/AYAN ROY.jpg": "/C.TIMES/static/media/AYAN ROY.bcad8e00fe8b46d266c2.jpg",
     "static/media/HDR.jpg": "/C.TIMES/static/media/HDR.4fdc50b8edf658abfba0.jpg",
@@ -36,6 +36,7 @@
     "static/media/cgec_acdemic.jpeg": "/C.TIMES/static/media/cgec_acdemic.d85266d725e1a5ac11db.jpeg",
     "static/media/extempore.jpg": "/C.TIMES/static/media/extempore.2ea94faff5c7e17e0b22.jpg",
     "static/media/Art Exhibition.jpg": "/C.TIMES/static/media/Art Exhibition.d171b2b88598d3cd879c.jpg",
+    "static/media/Parthiv.jpg": "/C.TIMES/static/media/Parthiv.a015a5386dfc2e9706b1.jpg",
     "static/media/Cube Solving.jpg": "/C.TIMES/static/media/Cube Solving.e59a4222edd794ddb3c8.jpg",
     "static/media/Calligraphy,.jpg": "/C.TIMES/static/media/Calligraphy,.b2c1a055daaeb29e1d2f.jpg",
     "static/media/Drama,.jpg": "/C.TIMES/static/media/Drama,.878880ea734127455d11.jpg",
@@ -78,11 +79,11 @@
     "static/media/clgLogo.png": "/C.TIMES/static/media/clgLogo.94a2e46c11315d67611c.png",
     "index.html": "/C.TIMES/index.html",
     "main.602441e9.css.map": "/C.TIMES/static/css/main.602441e9.css.map",
-    "main.573aaebb.js.map": "/C.TIMES/static/js/main.573aaebb.js.map",
+    "main.82d20f6e.js.map": "/C.TIMES/static/js/main.82d20f6e.js.map",
     "453.02123d28.chunk.js.map": "/C.TIMES/static/js/453.02123d28.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.602441e9.css",
-    "static/js/main.573aaebb.js"
+    "static/js/main.82d20f6e.js"
   ]
 }
